@@ -357,11 +357,12 @@ class EventHandler(object):
                 continue
             else:
                 # [PATCH] UE4 refuses to run as root, so launch as the airvln user.
-                # Original code below forced -GraphicsAdapter=0 together with CUDA_VISIBLE_DEVICES.
-                # On this server Vulkan ignores CUDA_VISIBLE_DEVICES, so all scenes landed on GPU 0.
-                # A second attempt using -GraphicsAdapter={gpu} exposed adapter-order ambiguity
-                # because adapter 0 is llvmpipe CPU and NVIDIA adapters start at 1. Using
-                # DRI_PRIME=pci-... selects the NVIDIA GPU by PCI bus id reliably.
+                # Root cause of multi-GPU failure: Vulkan default ICD list includes Mesa llvmpipe
+                # (software CPU renderer) which appears as device index 0, shifting NVIDIA devices
+                # to indices 1,2,3. -GraphicsAdapter=1 and =2 hit wrong GPUs or fail.
+                # Fix: set VK_ICD_FILENAMES to nvidia_icd.json only → devices 0,1,2 = 3×RTX3060.
+                # Verified: DISPLAY=:1 VK_ICD_FILENAMES=.../nvidia_icd.json vulkaninfo --summary
+                # shows exactly 3 DISCRETE_GPU devices matching nvidia-smi GPU 0,1,2 by PCI bus.
                 # ORIGINAL:
                 # subprocess_execute = "su airvln -c 'DISPLAY=:1 CUDA_VISIBLE_DEVICES={gpu} bash {exe} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter=0 --settings {settings}'".format(
                 #     gpu=gpus[index],
@@ -374,9 +375,20 @@ class EventHandler(object):
                 #     exe=choose_env_exe_paths[index],
                 #     settings=str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
                 # )
-                dri_prime = GPU_DRI_PRIME_IDS.get(gpus[index], str(gpus[index]))
-                subprocess_execute = "su airvln -c 'DISPLAY=:1 DRI_PRIME={dri_prime} bash {exe} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter=0 --settings {settings}'".format(
-                    dri_prime=dri_prime,
+                # FIX: Force NVIDIA-only Vulkan ICD so all 3 GPUs are enumerated
+                # (without this, the Mesa software rasterizer llvmpipe appears as adapter 0
+                # and -GraphicsAdapter=1 is NVIDIA GPU 0, -GraphicsAdapter=2 is GPU 1, etc.)
+                # With VK_ICD_FILENAMES set to nvidia_icd.json only:
+                #   -GraphicsAdapter=0 → NVIDIA GPU 0 (pciBus 0x05)
+                #   -GraphicsAdapter=1 → NVIDIA GPU 1 (pciBus 0x82)
+                #   -GraphicsAdapter=2 → NVIDIA GPU 2 (pciBus 0x83)
+                # Verified with: DISPLAY=:1 VK_ICD_FILENAMES=... vulkaninfo --summary
+                subprocess_execute = (
+                    "su airvln -c 'DISPLAY=:1 "
+                    "VK_ICD_FILENAMES=/etc/vulkan/icd.d/nvidia_icd.json "
+                    "bash {exe} -RenderOffscreen -NoSound -NoVSync "
+                    "-GraphicsAdapter={gpu} --settings {settings}'"
+                ).format(
                     gpu=gpus[index],
                     exe=choose_env_exe_paths[index],
                     settings=str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
