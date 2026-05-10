@@ -356,11 +356,30 @@ class EventHandler(object):
                 p_s.append(None)
                 continue
             else:
-                # ������Ⱦ������������ vsync �ķ�ʽ headless ���� AirSim
-                subprocess_execute = "bash {} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter={} --settings {} ".format(
-                    choose_env_exe_paths[index],
-                    gpus[index],
-                    str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
+                # [PATCH] UE4 refuses to run as root, so launch as the airvln user.
+                # Original code below forced -GraphicsAdapter=0 together with CUDA_VISIBLE_DEVICES.
+                # On this server Vulkan ignores CUDA_VISIBLE_DEVICES, so all scenes landed on GPU 0.
+                # A second attempt using -GraphicsAdapter={gpu} exposed adapter-order ambiguity
+                # because adapter 0 is llvmpipe CPU and NVIDIA adapters start at 1. Using
+                # DRI_PRIME=pci-... selects the NVIDIA GPU by PCI bus id reliably.
+                # ORIGINAL:
+                # subprocess_execute = "su airvln -c 'DISPLAY=:1 CUDA_VISIBLE_DEVICES={gpu} bash {exe} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter=0 --settings {settings}'".format(
+                #     gpu=gpus[index],
+                #     exe=choose_env_exe_paths[index],
+                #     settings=str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
+                # )
+                # PATCH ATTEMPT KEPT FOR REFERENCE:
+                # subprocess_execute = "su airvln -c 'DISPLAY=:1 bash {exe} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter={gpu} --settings {settings}'".format(
+                #     gpu=gpus[index],
+                #     exe=choose_env_exe_paths[index],
+                #     settings=str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
+                # )
+                dri_prime = GPU_DRI_PRIME_IDS.get(gpus[index], str(gpus[index]))
+                subprocess_execute = "su airvln -c 'DISPLAY=:1 DRI_PRIME={dri_prime} bash {exe} -RenderOffscreen -NoSound -NoVSync -GraphicsAdapter=0 --settings {settings}'".format(
+                    dri_prime=dri_prime,
+                    gpu=gpus[index],
+                    exe=choose_env_exe_paths[index],
+                    settings=str(CWD_DIR / 'airsim_plugin/settings' / str(index+1) / 'settings.json'),
                 )
 
                 try:
@@ -536,8 +555,35 @@ if __name__ == '__main__':
         gpu_list.append(int(gpu.strip()))
     GPU_IDS = gpu_list.copy() # list of gpu ids
 
+    # [PATCH] Map nvidia-smi GPU index to a Vulkan DRI_PRIME PCI selector.
+    # ORIGINAL: only GPU_IDS existed, and launch used CUDA_VISIBLE_DEVICES.
+    # CUDA_VISIBLE_DEVICES does not constrain Vulkan/UE4 on this server, so all scenes
+    # landed on GPU 0. DRI_PRIME=pci-0000_xx_00_0 selects the intended NVIDIA adapter.
+    GPU_DRI_PRIME_IDS = {}
+    try:
+        smi_output = subprocess.check_output(
+            [
+                "nvidia-smi",
+                "--query-gpu=index,pci.bus_id",
+                "--format=csv,noheader,nounits",
+            ],
+            stderr=subprocess.STDOUT,
+            text=True,
+        )
+        for line in smi_output.strip().splitlines():
+            gpu_index, pci_bus_id = [item.strip() for item in line.split(",", 1)]
+            # [PATCH] nvidia-smi reports 00000000:83:00.0, while DRI_PRIME expects
+            # pci-0000_83_00_0. Keep the original idea, but normalize the domain width.
+            domain, bus, slot_func = pci_bus_id.lower().split(":")
+            slot, func = slot_func.split(".")
+            dri_prime_pci = "pci-{}_{}_{}_{}".format(domain[-4:], bus, slot, func)
+            GPU_DRI_PRIME_IDS[int(gpu_index)] = dri_prime_pci
+    except Exception as e:
+        print("Failed to build GPU_DRI_PRIME_IDS, fallback to raw gpu ids: {}".format(e))
+        GPU_DRI_PRIME_IDS = {gpu: str(gpu) for gpu in GPU_IDS}
+    print("GPU_DRI_PRIME_IDS: {}".format(GPU_DRI_PRIME_IDS))
+
     
     addr, server, thread = serve()
     # import ipdb; ipdb.set_trace()
     print(f"start listening \t{addr._host}:{addr._port}")
-

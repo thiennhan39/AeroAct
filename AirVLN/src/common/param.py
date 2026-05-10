@@ -119,6 +119,10 @@ args.TRAIN_VOCAB = Path(args.project_prefix) / 'DATA/data/aerialvln/train_vocab.
 args.TRAINVAL_VOCAB = Path(args.project_prefix) / 'DATA/data/aerialvln/train_vocab.txt'
 args.vocab_size = 10038 # aeraialvln vocab size = aeraialvln-s
 
+# [MODIFIED] Default để tránh AttributeError khi il_trainer.py import args từ 'src.common.param'
+# trong khi init_distributed_mode() set attribute trên 'AirVLN_src.common.param.args' (tên khác nhau
+# → Python load thành 2 object riêng). init_distributed_mode() vẫn override nếu chạy distributed.
+args.DistributedDataParallel = False
 
 default_config = CN.clone()
 default_config.make_dir_time = args.make_dir_time

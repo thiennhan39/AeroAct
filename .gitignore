@@ -41,3 +41,11 @@ checkpoints/
 # OS files
 .DS_Store
 Thumbs.db
+Miniconda3/
+Dataset/AerialVLN-Dataset/Raw_data/
+DATA/output/
+__pycache__/
+*.pyc
+
+# Large generated data files (regenerate with scripts/generate_train_merged_triple.py)
+Dataset/AerialVLN-Dataset/data/aerialvln-s/train_merged_triple.json

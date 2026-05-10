@@ -5,6 +5,7 @@ sys.path.append(str(Path(str(os.getcwd())).resolve()))
 import gc
 import time
 import lmdb
+import cv2  # [MODIFIED] để lưu raw RGB frame ra file JPEG
 import tqdm
 import math
 import random
@@ -434,6 +435,9 @@ def batch_obs(
 
     for obs in observations:
         for sensor in obs:
+            # [MODIFIED] 'instruction' is raw text string in collect mode → skip, can't tensorize
+            if isinstance(obs[sensor], str):
+                continue
             batch[sensor].append(torch.as_tensor(obs[sensor]))
 
     batch_t: TensorDict = TensorDict()
@@ -470,7 +474,7 @@ def initialize_trainer(): # define trainer model
     observation_space = spaces.Dict({
         "rgb": spaces.Box(low=0, high=255, shape=(args.Image_Height_RGB, args.Image_Width_RGB, 3), dtype=np.uint8),
         "depth": spaces.Box(low=0, high=1, shape=(args.Image_Height_DEPTH, args.Image_Width_DEPTH, 1), dtype=np.float32),
-        "instruction": spaces.Discrete(0),
+        "instruction": spaces.Discrete(1),  # [MODIFIED] 0 invalid với gym >= 0.22; dùng 1 (giống env.py)
         "progress": spaces.Box(low=0, high=1, shape=(1,), dtype=np.float32),
         "teacher_action": spaces.Box(low=0, high=100, shape=(1,)),
     })
@@ -579,6 +583,13 @@ def collect_data(data_it=0):
             # import ipdb; ipdb.set_trace()
             observations, _, dones, _ = [list(x) for x in zip(*outputs)]
             batch = batch_obs(observations, trainer.device) # tensor dict key? no position?
+            # [MODIFIED] In collect/TF mode, 'instruction' obs is raw text (skipped by batch_obs).
+            # Policy still needs a tensor for forward pass, but output is overridden by teacher action (beta=1.0).
+            # Must have >=1 non-zero token so pack_padded_sequence does not get length=0.
+            if "instruction" not in batch:
+                _instr = torch.zeros(train_env.batch_size, args.maxInput, dtype=torch.long, device=trainer.device)
+                _instr[:, 0] = 1  # sentinel: ensures sequence length >= 1
+                batch["instruction"] = _instr
 
             ended = False
 
@@ -588,56 +599,44 @@ def collect_data(data_it=0):
                 for i in range(train_env.batch_size):
                     if dones[i] and not skips[i]:
                         if args.collect_type in ['TF']:
-                            _episodes = episodes[i].copy() # list
-                            for _i, _j in enumerate(train_env.trajectory_id_2_instruction_tokens[infos[i]['trajectory_id']]):
-                                for __i, __j in enumerate(_episodes):
-                                    _episodes[__i][0]['instruction'] = _j
-
-                                ep = _episodes.copy()
-                                traj_obs = batch_obs(
-                                    [step[0] for step in ep],
-                                    device=torch.device("cpu"),
-                                )
-                                del traj_obs['teacher_action']
-                                for k, v in traj_obs.items():
-                                    traj_obs[k] = v.numpy()
-                                
-                                # for what? how get the features?
-                                transposed_ep = [
-                                    traj_obs,
-                                    np.array([step[1] for step in ep], dtype=np.int64),
-                                    np.array([step[2] for step in ep], dtype=np.int64),
-                                ]
-
-                                train_env.threading_lock_lmdb_features_txn.acquire()
-                                lmdb_key = str(train_env.trajectory_id_2_episode_ids[infos[i]['trajectory_id']][_i])
-                                train_env.lmdb_features_txn.put(
-                                    lmdb_key.encode(),
-                                    msgpack_numpy.packb(
-                                        transposed_ep, use_bin_type=True
-                                    ),
-                                ) # why? or what 
-                                train_env.lmdb_features_txn.commit()
-                                train_env.lmdb_features_start_id = train_env.lmdb_features_env.stat()["entries"]
-                                train_env.lmdb_features_txn = train_env.lmdb_features_env.begin(write=True)
-                                train_env.threading_lock_lmdb_features_txn.release()
-                                logger.info('lmdb of {}, lmdb_start_id: {}'.format(train_env.split, train_env.lmdb_features_start_id))
-
-                            if args.run_type in ['collect'] and args.collect_type in ['TF']:
-                                train_env.threading_lock_lmdb_rgb_txn.acquire()
-                                train_env.lmdb_rgb_txn.commit()
-                                train_env.lmdb_rgb_start_id = train_env.lmdb_rgb_env.stat()["entries"]
-                                train_env.lmdb_rgb_txn = train_env.lmdb_rgb_env.begin(write=True)
-                                train_env.threading_lock_lmdb_rgb_txn.release()
-
-                                train_env.threading_lock_lmdb_depth_txn.acquire()
-                                train_env.lmdb_depth_txn.commit()
-                                train_env.lmdb_depth_start_id = train_env.lmdb_depth_env.stat()["entries"]
-                                train_env.lmdb_depth_txn = train_env.lmdb_depth_env.begin(write=True)
-                                train_env.threading_lock_lmdb_depth_txn.release()
-
+                            # [MODIFIED] Code gốc ở đây lưu DNN feature vectors và raw images vào LMDB.
+                            # Chúng ta đã chuyển sang lưu raw JPEG frames trực tiếp (per-step bên dưới),
+                            # nên toàn bộ phần lưu LMDB được comment lại để tránh cần
+                            # trajectory_id_2_instruction_tokens / lmdb_features_txn / lmdb_rgb_txn.
+                            #
+                            # --- CODE GỐC (LMDB saving) ---
+                            # _episodes = episodes[i].copy() # list
+                            # for _i, _j in enumerate(train_env.trajectory_id_2_instruction_tokens[infos[i]['trajectory_id']]):
+                            #     for __i, __j in enumerate(_episodes):
+                            #         _episodes[__i][0]['instruction'] = _j
+                            #     ep = _episodes.copy()
+                            #     traj_obs = batch_obs([step[0] for step in ep], device=torch.device("cpu"))
+                            #     del traj_obs['teacher_action']
+                            #     for k, v in traj_obs.items():
+                            #         traj_obs[k] = v.numpy()
+                            #     transposed_ep = [traj_obs,
+                            #         np.array([step[1] for step in ep], dtype=np.int64),
+                            #         np.array([step[2] for step in ep], dtype=np.int64)]
+                            #     train_env.threading_lock_lmdb_features_txn.acquire()
+                            #     lmdb_key = str(train_env.trajectory_id_2_episode_ids[infos[i]['trajectory_id']][_i])
+                            #     train_env.lmdb_features_txn.put(lmdb_key.encode(), msgpack_numpy.packb(transposed_ep, use_bin_type=True))
+                            #     train_env.lmdb_features_txn.commit()
+                            #     train_env.lmdb_features_start_id = train_env.lmdb_features_env.stat()["entries"]
+                            #     train_env.lmdb_features_txn = train_env.lmdb_features_env.begin(write=True)
+                            #     train_env.threading_lock_lmdb_features_txn.release()
+                            # if args.run_type in ['collect'] and args.collect_type in ['TF']:
+                            #     train_env.threading_lock_lmdb_rgb_txn.acquire()
+                            #     train_env.lmdb_rgb_txn.commit()
+                            #     train_env.lmdb_rgb_start_id = train_env.lmdb_rgb_env.stat()["entries"]
+                            #     train_env.lmdb_rgb_txn = train_env.lmdb_rgb_env.begin(write=True)
+                            #     train_env.threading_lock_lmdb_rgb_txn.release()
+                            #     train_env.threading_lock_lmdb_depth_txn.acquire()
+                            #     train_env.lmdb_depth_txn.commit()
+                            #     train_env.lmdb_depth_start_id = train_env.lmdb_depth_env.stat()["entries"]
+                            #     train_env.lmdb_depth_txn = train_env.lmdb_depth_env.begin(write=True)
+                            #     train_env.threading_lock_lmdb_depth_txn.release()
+                            # --- KẾT THÚC CODE GỐC ---
                             episodes[i] = []
-                            _episodes = []
                             envs_to_pause.append(i)
                             skips[i] = True
 
@@ -714,7 +713,29 @@ def collect_data(data_it=0):
                 for i in range(train_env.batch_size):
                     if not args.ablate_rgb and rgb_features is not None:
                         observations[i]["rgb_features"] = rgb_features[i]
-                        del observations[i]["rgb"] # no on 
+
+                        # [MODIFIED] Lưu raw RGB frame ra JPEG trước khi xoá.
+                        # Code gốc chỉ giữ lại DNN feature vector (2048-D) trong LMDB,
+                        # không dùng được cho AeroAct vì VILA/LLaVA cần raw JPEG.
+                        # Chỉ lưu khi: đang ở collect mode VÀ env này chưa bị pause
+                        # (env bị pause = episode đã kết thúc ở bước t hiện tại hoặc trước đó).
+                        if args.run_type in ['collect'] and i not in envs_to_pause:
+                            _episode_id = train_env.sim_states[i].episode_info['episode_id']
+                            _out_dir = os.path.join(
+                                args.project_prefix,
+                                "Dataset", "AerialVLN-Dataset", "Raw_data", "aerialvln-s",
+                                _episode_id, "rgb"
+                            )
+                            os.makedirs(_out_dir, exist_ok=True)
+                            # AirSim trả về ảnh dạng RGB; cv2.imwrite cần BGR → đảo channel.
+                            # Nếu màu sắc bị sai sau collect, bỏ [..., ::-1] ở dòng dưới.
+                            cv2.imwrite(
+                                os.path.join(_out_dir, f"frame_{t:03d}.jpg"),
+                                observations[i]["rgb"][..., ::-1]
+                            )
+                        # [END MODIFIED]
+
+                        del observations[i]["rgb"] # no on
 
                     if not args.ablate_depth and depth_features is not None:
                         observations[i]["depth_features"] = depth_features[i]
@@ -740,6 +761,11 @@ def collect_data(data_it=0):
                 outputs = train_env.get_obs()
                 observations, _, dones, infos = [list(x) for x in zip(*outputs)]
                 batch = batch_obs(observations, trainer.device)
+                # [MODIFIED] same dummy instruction patch as after reset (TF mode, beta=1.0)
+                if "instruction" not in batch:
+                    _instr = torch.zeros(train_env.batch_size, args.maxInput, dtype=torch.long, device=trainer.device)
+                    _instr[:, 0] = 1
+                    batch["instruction"] = _instr
 
                 logger.info('action: {}'.format(actions))
 
