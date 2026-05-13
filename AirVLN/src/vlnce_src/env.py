@@ -78,6 +78,16 @@ class AirVLNENV: # only for evaluation
         if args.EVAL_NUM != -1 and int(args.EVAL_NUM) > 0:
             [random.shuffle(self.data) for i in range(10)]
             self.data = self.data[:int(args.EVAL_NUM)].copy()  # only eval fixed num data
+        if args.run_type == 'collect':
+            raw_data_dir = os.path.join(
+                args.project_prefix,
+                'Dataset', 'AerialVLN-Dataset', 'Raw_data', 'aerialvln-s'
+            )
+            before = len(self.data)
+            self.data = [ep for ep in self.data
+                         if not os.path.isfile(os.path.join(raw_data_dir, ep['episode_id'], 'done'))]
+            logger.info(f'resume_collect: skipping {before - len(self.data)} already-collected '
+                        f'episodes, {len(self.data)} remaining')
         if dataset_group_by_scene:
             self.data = self._group_scenes()
             logger.warning('dataset grouped by scene')

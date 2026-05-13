@@ -636,6 +636,24 @@ def collect_data(data_it=0):
                             #     train_env.lmdb_depth_txn = train_env.lmdb_depth_env.begin(write=True)
                             #     train_env.threading_lock_lmdb_depth_txn.release()
                             # --- KẾT THÚC CODE GỐC ---
+                            if args.run_type in ['collect']:
+                                _episode_id = train_env.sim_states[i].episode_info['episode_id']
+                                _done_path = os.path.join(
+                                    args.project_prefix,
+                                    "Dataset", "AerialVLN-Dataset", "Raw_data", "aerialvln-s",
+                                    _episode_id, "done"
+                                )
+                                _rgb_dir = os.path.join(
+                                    args.project_prefix,
+                                    "Dataset", "AerialVLN-Dataset", "Raw_data", "aerialvln-s",
+                                    _episode_id, "rgb"
+                                )
+                                # [MODIFIED] Chỉ ghi done nếu đã có ít nhất 1 ảnh.
+                                # Nếu dones=True ngay từ reset (t=0), rgb/ chưa được tạo
+                                # → không ghi done để episode được retry lần sau.
+                                if os.path.isdir(_rgb_dir) and len(os.listdir(_rgb_dir)) > 0:
+                                    os.makedirs(os.path.dirname(_done_path), exist_ok=True)
+                                    open(_done_path, 'w').close()
                             episodes[i] = []
                             envs_to_pause.append(i)
                             skips[i] = True
@@ -727,12 +745,17 @@ def collect_data(data_it=0):
                                 _episode_id, "rgb"
                             )
                             os.makedirs(_out_dir, exist_ok=True)
-                            # AirSim trả về ảnh dạng RGB; cv2.imwrite cần BGR → đảo channel.
-                            # Nếu màu sắc bị sai sau collect, bỏ [..., ::-1] ở dòng dưới.
-                            cv2.imwrite(
-                                os.path.join(_out_dir, f"frame_{t:03d}.jpg"),
-                                observations[i]["rgb"][..., ::-1]
-                            )
+                            # AirSim trả về ảnh dạng BGR (native AirSim/OpenCV).
+                            # cv2.imwrite cũng nhận BGR → truyền thẳng, không đảo channel.
+                            # [MODIFIED] Bỏ qua ảnh rỗng (AirSim trả về mảng 0
+                            # khi UE4 crash) để tránh tạo file 0-byte.
+                            _rgb = observations[i]["rgb"]
+                            if _rgb is not None and _rgb.size > 0 and _rgb.max() > 0:
+                                cv2.imwrite(
+                                    os.path.join(_out_dir, f"frame_{t:03d}.jpg"),
+                                    _rgb
+                                )
+                            # [END MODIFIED]
                         # [END MODIFIED]
 
                         del observations[i]["rgb"] # no on
@@ -775,10 +798,14 @@ def collect_data(data_it=0):
                     device=trainer.device,
                 ) # advoid done envs in next step
             # episodes batch_size * Max_action
-            for i in range(train_env.batch_size): # same as for t in range(int(args.maxAction) + 1) 
+            for i in range(train_env.batch_size): # same as for t in range(int(args.maxAction) + 1)
                 if dones[i] and not t >= int(args.maxAction):
                     continue
                 # import ipdb; ipdb.set_trace()
+                if args.run_type in ['collect']:
+                    # [MODIFIED] Raw frames were already saved per-step above,
+                    # so collect mode skips the original LMDB feature write.
+                    continue
                 if args.collect_type in ['TF']:
                     _episodes = episodes[i].copy() # max_action
                     # one episode may have multiple instructions
@@ -1421,4 +1448,3 @@ if __name__ == "__main__":
         eval_vlnce()
     else:
         raise NotImplementedError
-

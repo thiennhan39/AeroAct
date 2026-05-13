@@ -1,0 +1,7545 @@
+{
+  "summary": {
+    "total_annotation_episodes": 10113,
+    "done_count": 9942,
+    "bad_count": 171,
+    "partial_bad_count": 3,
+    "done_by_scene": {
+      "2": 866,
+      "3": 599,
+      "4": 770,
+      "5": 847,
+      "8": 777,
+      "10": 1420,
+      "11": 1418,
+      "12": 869,
+      "14": 683,
+      "17": 485,
+      "20": 741,
+      "22": 467
+    },
+    "bad_by_scene": {
+      "2": 46,
+      "3": 2,
+      "5": 1,
+      "8": 26,
+      "10": 17,
+      "12": 26,
+      "14": 24,
+      "17": 23,
+      "20": 6
+    },
+    "frame_count_min": 1,
+    "frame_count_max": 368,
+    "frame_count_mean": 102.47555823777913,
+    "done_lt5_count": 77,
+    "done_lt10_count": 192,
+    "done_lt20_count": 485,
+    "quality_flag_count": 195
+  },
+  "bad_episodes": [
+    {
+      "episode_id": "3QFUFYSY97DSUTGBZVQKA213H6B4FF",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JAOYWH7VR2FRRWJ21P9MNH3TZV9L8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3570Y55XZYHE60QQZMK98C5M7YZYG0",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DIP6YHAPLQ17G3HGNWR9WW8ZEME8A",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SUWZRL0M7BE32KTN8ZTPI0H4NNE6Y",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K3R2QNK8K1IAHJDBFHADADMGA7U9K",
+      "scene_id": 3,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOP1XNYSW",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37QW5D2ZRPK2HZ8ZHIGWYD0N05X8S7",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3HQUKB7LNOC6K1VC9SY37CMK2KTHHJ",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LEIZ60CDSXZWGDNH2GIU2S17ME9ZT",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NG53N1RL4H547S7P1C238VCN888PT",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LRLIPTPEZ7IC4O697R83IF8HAVKAB",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31UV0MXWNZAU03M1E8FFIRK9Z5SI57",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NPFYT4IZL2P6V0GUQY7PYYDE5XXGK",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KYQYYSHY45Z02CXR9A3004NGE8ODT",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMAMLITBW",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "317HQ483IGQYQSS7I8B1C8KVH7ONIN",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SB4CE2TJ4TOW4ND8Q6XTCNA7G4AX8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OHYZ19UGL312V9L7ZJ1AZWH4RIOA3",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OE22WJIGRMO2G0ZSHSWZ53BNMCUQS",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3E47SOBEYZUFZOVGTI2NWXQJJ52ICX",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33SA9F9TR6SCXHZZEQCXNCZUPWGEWA",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3EA3QWIZ4RTWL5XRF4XDL7QNIZIITN",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RP9OVJUV",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33L7PJKHCPW3WZLE6ILM8IWATHHT82",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Z7VU45IP7FH7BASDP1PFWAIAY91Z8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOP3EVYS4",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "36NEMU28XOBA95RCVO0G0K43388MWX",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OWEPKL08IA118BBZH74LJUM4PG7NC",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MAOD8E57Z8VGNH2HUB2FI7ACMONXU",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I0BTBYZA6JHVWF5LKV6NKI663X0Y0",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MMN5BL1W82DI7POL4PEVNT6SWK3MZ",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NOKK93PRA6IGHD8TQIR16SUJLIEEO",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3B3WTRP3DK09Q5ABSV747RIUNSE92F",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DOCMVPBTWCQ4T3YFOOTHGGCAD9NNF",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33CKWXB73SIKCFPK5ESXN2Q66OH11N",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33M4IA01QPZGVL9UA1SJO2CKDN1RXI",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "336YQZE834CGWMCSZND7AKRQEY4M5L",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X73LLYYQACYUXHNCQTGCWJGO3PNHZ",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3W2LOLRXLKDABLANBIDUY84IKQSRKQ",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3AUQQEL7UER0R2K0G98MGLECR2X0VS",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YWRV122C1XIWC036NBWDEIBWV6U8U",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3CPLWGV3MXX5FRZ4EE5OZFLS5J1N9F",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DQQ64TANPJGU8OPN4S8HOYY30YWPN",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3B3WTRP3DK09Q5ABSV747RIUXG029G",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33FOTY3KEVJ4ZIZILBHH4Y9XBJWC19",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QUO65DNQ3MLH4NJD40SA08BBMKUOF",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K2755HG5115UPZ4S6RDD6V9OZ6FDV",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WAKVUDHU5EEWYVKWIJQZEMGITW7UD",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JAOYWH7VR2FRRWJ21P9MNH3TMJL9I",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "378XPAWRULBR69YI946WQ20VJOJAIX",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YMU66OBIW6SK501PMGLMCAJPYGGHD",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NG53N1RL4H547S7P1C238VCLSJP8N",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F1567XTN53QIOCWU6X539GXDAU9QT",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RPC7HUJX",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QAPZX2QNDBRUBMYSZOBEGH1JDG023",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3CCZ6YKWRGH1P2TYAE925YL7Y7G59Q",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3T111IHZ5NOQUPRW7LM58ZQ26HB9RC",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32SCWG5HIQ2I0T9JWMF4JUZLFX3P6B",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MTMREQS44G974INYLABRT937THWAN",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MRNMEIQWE4RUH90EHUB8J0TL16DLO",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TE3O857396FU56XMC7QYCIOUA9R22",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31JLPPHS23S1IAA0YK4RNRIBXFRO33",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PJUZCGDJFEKCKC08CG5HIVXJ4789G",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WRFBPLXRJMJ0PAOX54E82I6XMI3NN",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "36U2A8VAGAXJ8MM9PD5O64XFNSSYKE",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34X6J5FLP2WFO0P5GIOIS3U0B62JQE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F0BG9B9MYLVD7FP6JGF2ZSTHMK7Y1",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WOKGM4L7AE51IB3FXM8LTK4UBCO0T",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "3DOCMVPBTWCQ4T3YFOOTHGGCAEWNN4",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K4J6M3CXNRDAISNJG6T5QNF2I5AGV",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31LM9EDVOUQUL3CD0QW1O9ZV1PGJNB",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VFJCI1K48X59ZE4LRSF0GCP2J1RGM",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TPZPLC3M9AJ3AM1DKH6CRN2OZRP32",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3RKNTXVS3VWXY2Z3OF4SW1QCLF44AN",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "333U7HK6IIDLZRL0BWIYS4N1H6NDJW",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KKG4CDWKRWJTJPYW9QS06FSE4N94R",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39JEC75373ZKLUFGSP16BMGDZL4CVU",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32EYX73OY97OEHFZ5WHW4VDH2YNUR3",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I02618YA94324ZKS4D7Z0D1BDQUP4",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OS4RQUCRIDCFS1KEA07IG79UAOBFF",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QEMNNSB26XSFWKYANT1PEISZ5WD7V",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VAR3R6G1YZNJ7G6A1ZNE8QNU94O8F",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JCG6DTRVCOWANTIB88RP46MDS1QQP",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39PAAFCODVY17BHREBWW0WGHLY4TVA",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X1FV8S5J6PX26VLUBXP1D1SYI3VG5",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3M0NZ3JDPAWGVTBBEC31IMNZVFV5ZM",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3XXU1SWE8VTGZEH25EHQKY0ZV2K0AO",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3HFNH7HEMQC5XYZ48C3FVQ2KHZ8QG8",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31UV0MXWNZAU03M1E8FFIRK9R7Q5IO",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3BF51CHDT48V91PGBKRI1KN3JWEH0T",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SEPORI8WWXD1ZNS98UIQX3LLKQAZ7",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37UEWGM5H2685KO1387CTT8JBHUR1J",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZOTGHDK5R952RVFOZ5SVZQNSOVOSP",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31QNSG6A50RGY1O7TFIL3M4REXJ78V",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32M8BPYGA2KSG0BLV4Y6MOBYN2UGIL",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3BEFOD78WFRY038SLIUX5SLC6T24M1",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OVHNO1VEFZBZ6Q4TILKGYBR7HTZDT",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YWRV122C1XIWC036NBWDEIBTFZ8U2",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3W92K5RLW3FZM961DFEYXGA35REV59",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34V1S5K3G1ZX86TCFXJ7X4Z64DP69Z",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3A1COHJ8NSTDRQUJ6O4XUZTLZ2C8H6",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NVC2EB65ZXDCOE247DPPIGDCTO3Y0",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LBXNTKX00TARLD8GKSXXHCRQ4F9XO",
+      "scene_id": 3,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "339ANSOTRE0XIM74LVJLKG3RUJXIKC",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37UEWGM5H2685KO1387CTT8J84RR1N",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VE8AYVF8VVTDU3DBYGXREH8OS08FO",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TXWC2NHN8O2V4R9MAMAY9VYU1TS9K",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39L1G8WVWZPGMI3ZSI6GBV5346P135",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3O6CYIULEMZTMDWL4QR2RULX3B7WUG",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JZQSN0I3Z88699VUWSLJRY6ADJGFK",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LS2AMNW5OOTPBG2WVGN0ZBM8NFOQD",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LQ8PUHQFUQ6GW6WFAGO7ONZ2Y7IHE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GLB5JMZF6TB8PVZ3QXVVRVLOQNGDZ",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VZLGYJEYU8PXCVLKIMWA5EK5HPXZX",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "337RC3OW0E0DOY9M52U5E560TU4VLF",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3A1PQ49WVQFVGQAY73VIFP6DOOI1HE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZOTGHDK5R952RVFOZ5SVZQNSNBSO7",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33PPO7FEC4DP4G1UTEXYG381CNNIDE",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Y4W8Q93L8IUQMLUSLWHVSYVIDEVDT",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3C5W7UE9COOPY5W25TW223IA90CMX1",
+      "scene_id": 5,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JNQLM5FTDK4R7BKHSAUC09QE3D2LE",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34MAJL3QPDLXEH0IF0PI9TC6HS243T",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "304SM51WAC2LJX66KU06PFQOKLWBSJ",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3IGI0VL64GI8ME3AG3O6W5GH2XMNOO",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PB5A5BD044VRGUPCDU9VZLP2IIG7A",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KGTPGBS66J7AXYEQ62V3N58AQGU2J",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33C7UALJVUW2NF954Z1C2CDECX618O",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I02618YA94324ZKS4D7Z0D1LB1UPL",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32XVDSJFP8VOXPT5H4B9CDOEX6Y2MO",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RPCEMUJG",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "308XBLVESR29II6T5501Z5LSPLERB7",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F6KKYWMNKZHIHCLQUAQLB4I1KZNDG",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GLB5JMZF6TB8PVZ3QXVVRVL0YBGDF",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JC6VJ2SAKHFUL332KN21TWQKI25A9",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X87C8JFVF98N38V3CXWK4LN52TSQ5",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33M4IA01QPZGVL9UA1SJO2CK6NKXR0",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3IJXV6UZ16HJ5QKZBFSILSP5Q1PIRK",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3570Y55XZYHE60QQZMK98C5MDGTYG0",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39GAF6DQW0Y0YR5ICSCMUQXMM3EV19",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32AT8R96GU70FWFCKLH1U5IC7JXUS1",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K3R2QNK8K1IAHJDBFHADADM7XI9UB",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "36NEMU28XOBA95RCVO0G0K43RSUWML",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DY46V3X3YGIOFRM7OWLTIG4S2H55F",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3V5Q80FXI6PNB3LVBM6UGEF8U1D239",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KAKFY4PG30RMOZX0PRM3UMPLBGI30",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VNXK88KKLGINW8DG5RF9WF5KROV9S",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "354GIDR5ZK4KY1JKDCKXVSOMUSA00V",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3RXCAC0YI0NZRUZ8MIMF9ZHKOOSG8K",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "373ERPL3YX69E40A5RRMZZRETZ4RTZ",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QBD8R3Z2AHM06T4YY9AXWAHCK44OW",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F6HPJW4JMYK21NJL6HWLBQ5X58W21",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JCG6DTRVCOWANTIB88RP46MNQUQQO",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32EYX73OY97OEHFZ5WHW4VDGLFNRUF",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34S9DKFK7CNKGS7CMQX4YWEKYWMNYY",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GGAI1SQE4W1V7L7EX0FOQX080ZMCA",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "31HQ4X3T318XW6SIB7P03IMTK6CLSO",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LS2AMNW5OOTPBG2WVGN0ZBM8B4QOG",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OCHAWUVGXIU8HWZKHJMNQQ6B47XK6",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32RIADZIS121YYLX5FQJH1KI6W94S2",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Y9N9SS8L79AEDJB8BQBCX6CSHAD3G",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMALG4TB7",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3180JW2OTDAQVE67WQ0FUSZ9A4NJ5S",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KIBXJ1WDES7E8I7JQWQ4DZD6NDKOG",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33IZTU6J8AZSW097PQSOECHG2H1XSG",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZPPDN2SL4U1LLMRLF259SRJUUEE94",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JC6VJ2SAKHFUL332KN21TWQDHDA5G",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3R6BYFZZPGAJSV4LJ6SP7DY1DPIFXM",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PMBY0YE2G1MON2DPOWAJ4RG6FA9C6",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K772S5NPH9U0R4AJRQXM9P7321HES",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "384PI804X1ZKZA3WME3H5YU5URFS0F",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    }
+  ],
+  "partial_bad_episodes": [
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOP3EVYS4",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "3WOKGM4L7AE51IB3FXM8LTK4UBCO0T",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "3GGAI1SQE4W1V7L7EX0FOQX080ZMCA",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    }
+  ],
+  "quality_flags": [
+    {
+      "episode_id": "3Z4AIRP3CFBS2GADC7D4IBU71FL1XI",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 144.57306946215985,
+          "std": 58.6269566510498,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 115.9709090667517,
+          "std": 64.29420928137182,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 101.01446242559524,
+          "std": 65.29410766134951,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3LOTDFNYAGX43VZV91W35UKU3XQFWQ",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 170.4822159332483,
+          "std": 60.53884262838152,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3S06PH7KS02E4A5WL7CSO4RFMFT1D1",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 104.45795466624149,
+          "std": 71.9743223596352,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 104.02105256164965,
+          "std": 62.49910311242275,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.49340986394557,
+          "std": 61.99851196526285,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3O6CYIULEMZTMDWL4QR2RULXBHIWUB",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.90949856505102,
+          "std": 70.81886741879839,
+          "min": 0,
+          "max": 244
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 150.92108444940476,
+          "std": 73.74138221631755,
+          "min": 0,
+          "max": 241
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 150.15858843537416,
+          "std": 78.8496439031242,
+          "min": 0,
+          "max": 242
+        }
+      ]
+    },
+    {
+      "episode_id": "3UXUOQ9OKNVUHPHMQD2ZZDAMBQBA7B",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.7872223107993,
+          "std": 70.82861044038354,
+          "min": 0,
+          "max": 242
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 150.61546024659864,
+          "std": 73.57609178277067,
+          "min": 0,
+          "max": 239
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 149.52195604804422,
+          "std": 79.00499430530391,
+          "min": 0,
+          "max": 241
+        }
+      ]
+    },
+    {
+      "episode_id": "34X6J5FLP2WFO0P5GIOIS3U07XOQJL",
+      "scene_id": 17,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 184.93751328656464,
+          "std": 65.09708418533623,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 166.6186290922619,
+          "std": 73.19487355348677,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 170.98666028911563,
+          "std": 73.061215532015,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "358010RM5NR8OSQBJLXTPZ1NR2SVX4",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.28960724914965,
+          "std": 69.99390446906119,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.91147826318027,
+          "std": 64.67256543274385,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 91.7312925170068,
+          "std": 63.009683438364206,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3QXNC7EIPRT2UV7XD83QO3PFUBM09G",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 69.85173522534014,
+          "std": 46.84355883097646,
+          "min": 0,
+          "max": 231
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 66.96605282738095,
+          "std": 53.690065716928586,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 71.98515226403062,
+          "std": 56.328662862058735,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WYP994K1GPC971KN9BNWLSXBNC6YQ",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 140.868928039966,
+          "std": 64.11769595946033,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 133.96293048469389,
+          "std": 69.9570950281035,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 84.54299532312925,
+          "std": 60.21282439620181,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WYGZ5XF35DMC0A0Q7DZOI9E46IKS4",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 156.31263950892858,
+          "std": 62.37618751852108,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3PJUZCGDJFEKCKC08CG5HIVXHIT89S",
+      "scene_id": 14,
+      "num_frames": 2,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 141.88813376913265,
+          "std": 51.50290627561294,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 140.44564466411563,
+          "std": 53.515219722299854,
+          "min": 0,
+          "max": 252
+        }
+      ]
+    },
+    {
+      "episode_id": "30IQTZXKAT4SVRPVGO9446BXZN60X8",
+      "scene_id": 11,
+      "num_frames": 239,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_dark_sample"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_003.jpg",
+          "mean": 2.4921409970238093,
+          "std": 9.401262358952362,
+          "min": 0,
+          "max": 67
+        },
+        {
+          "frame": "frame_122.jpg",
+          "mean": 6.373193027210885,
+          "std": 24.162145628776635,
+          "min": 0,
+          "max": 254
+        },
+        {
+          "frame": "frame_241.jpg",
+          "mean": 1.21538849914966,
+          "std": 7.320201095782777,
+          "min": 0,
+          "max": 235
+        }
+      ]
+    },
+    {
+      "episode_id": "3WOKGM4L7AE51IB3FXM8LTK4PNHO0H",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.3356252657313,
+          "std": 48.30156967041708,
+          "min": 0,
+          "max": 237
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.12064200680273,
+          "std": 55.00035638926962,
+          "min": 0,
+          "max": 247
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 72.15122767857143,
+          "std": 57.23375312609175,
+          "min": 0,
+          "max": 250
+        }
+      ]
+    },
+    {
+      "episode_id": "34J10VATJOWJTP5ZY03IG2F0UJOQI0",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 170.48199006164967,
+          "std": 60.54512834462506,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3D8YOU6S9NIVSYHFD8EYT0MKO6O6U2",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 183.42651865433675,
+          "std": 66.90861590860152,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 164.85132334183675,
+          "std": 71.07951909675513,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 165.42234667304422,
+          "std": 70.75886474339266,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3E47SOBEYZUFZOVGTI2NWXQJQ3YCIQ",
+      "scene_id": 14,
+      "num_frames": 2,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.39526865433675,
+          "std": 51.49183901049583,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 140.4914102359694,
+          "std": 53.39181813453914,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "35K3O9HUAKBAMVD4O12XJODUN21EFY",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.54472921981292,
+          "std": 70.32398861348437,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.41252790178571,
+          "std": 64.69061857063396,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.41631457270408,
+          "std": 63.13846413240711,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3MYYFCXHJC5Y8TC6AFW2SN1FDSCG40",
+      "scene_id": 12,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 59.132599914965986,
+          "std": 41.269918218046975,
+          "min": 0,
+          "max": 207
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 140.2386399872449,
+          "std": 72.66190603096354,
+          "min": 0,
+          "max": 241
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 163.78621253188774,
+          "std": 38.83546686082395,
+          "min": 0,
+          "max": 240
+        }
+      ]
+    },
+    {
+      "episode_id": "31IBVUNM91XRO6ZQJRR7JS1HE5KFVU",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 179.30765040391157,
+          "std": 50.258698490453504,
+          "min": 7,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 162.32306281887756,
+          "std": 57.36546978649197,
+          "min": 9,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 102.81346991921768,
+          "std": 73.55984709180186,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3FE7TXL1LRLFI4RX9XIQTM8J1AY2QE",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 141.78117692389455,
+          "std": 51.489039816378764,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 150.99602067389455,
+          "std": 62.45626959791954,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 139.27372980442178,
+          "std": 75.94980265695939,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3QBD8R3Z2AHM06T4YY9AXWAHAYE4OW",
+      "scene_id": 11,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 85.51152609481292,
+          "std": 80.83769570168562,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 70.42807318239795,
+          "std": 71.6947247121723,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 73.18938669217687,
+          "std": 74.74920071173383,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3D3VGR7TA9D4FN2GQCLVHMNG9O33RS",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 118.32742081207483,
+          "std": 74.73669006484742,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 176.29393202593536,
+          "std": 50.79064218334444,
+          "min": 8,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 136.74858498086735,
+          "std": 60.768965343830466,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "37TD41K0AQ74T2YCYUW10ZW61IUSCS",
+      "scene_id": 8,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.02778884991497,
+          "std": 60.74466845047923,
+          "min": 20,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 79.26195126488095,
+          "std": 69.16698970550407,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 41.419596354166664,
+          "std": 69.67682469075875,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3R3YRB5GRO1WF0TI3LVA95O6K5ZAUD",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 76.28122342687075,
+          "std": 73.08695733577822,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.24934231505102,
+          "std": 82.64156640127042,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.98677322491497,
+          "std": 79.16695295660271,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TMFV4NEPHCVOGP81NQXV23872ZW8L",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.85620615433673,
+          "std": 70.23317977633748,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 100.10617293792517,
+          "std": 64.36396058299124,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.44580410289116,
+          "std": 62.746222472031484,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3X1FV8S5J6PX26VLUBXP1D1SPMYGVK",
+      "scene_id": 10,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 22.768734056122447,
+          "std": 33.59217981716093,
+          "min": 0,
+          "max": 237
+        }
+      ]
+    },
+    {
+      "episode_id": "34S6N1K2Z4H86XE20DD1Z4FRKWVHLA",
+      "scene_id": 17,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 97.52953603316327,
+          "std": 86.71928079764916,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 83.59716464710884,
+          "std": 91.33045369914625,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 157.53455835459184,
+          "std": 89.87680777609982,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3FTOP5WAROMR07K6ZKU3DX3ISRS0JT",
+      "scene_id": 4,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 157.27200255102042,
+          "std": 53.20640391401093,
+          "min": 0,
+          "max": 226
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 158.64198022959184,
+          "std": 58.31230937941254,
+          "min": 0,
+          "max": 242
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 111.67472496811224,
+          "std": 87.2496640113951,
+          "min": 0,
+          "max": 242
+        }
+      ]
+    },
+    {
+      "episode_id": "3PXX5PX6L6WHJ1KC3UEF4FWIRXWBAN",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 70.55735145620748,
+          "std": 48.207716076118004,
+          "min": 0,
+          "max": 234
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 70.53077168367346,
+          "std": 55.11847693310986,
+          "min": 0,
+          "max": 245
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 73.5836721407313,
+          "std": 57.543673921740876,
+          "min": 0,
+          "max": 254
+        }
+      ]
+    },
+    {
+      "episode_id": "337RC3OW0E0DOY9M52U5E560KRYLVK",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.84668633078232,
+          "std": 70.43905833420096,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.62506643282313,
+          "std": 64.76285414223524,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 91.06566884566327,
+          "std": 63.10340428942966,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3N2BF7Y2VZSSCFWN0PEGZHUGJAUMH7",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.81740274234693,
+          "std": 70.76301217804543,
+          "min": 0,
+          "max": 243
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 150.5289314944728,
+          "std": 73.49365489454578,
+          "min": 0,
+          "max": 243
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 150.64344839498298,
+          "std": 78.43509946825715,
+          "min": 0,
+          "max": 241
+        }
+      ]
+    },
+    {
+      "episode_id": "3WJ1OXY92JEYH3M50IU5DD6HNYK8AC",
+      "scene_id": 17,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 97.57564041241497,
+          "std": 86.74327998339704,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 83.59012941113946,
+          "std": 91.38198018597353,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 157.4965454931973,
+          "std": 89.87627986971559,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3Z3ZLGNNSRS43MNGDXWVCWDB2LI3QZ",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 117.3841477997449,
+          "std": 63.445322524085356,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 110.47273596938776,
+          "std": 67.9217025334317,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 66.3659053465136,
+          "std": 53.27271488754401,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3EKVH9QME72LTVNS4BC6TN1KMHBD2Y",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.6939772002551,
+          "std": 72.47819952020171,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.05395009566327,
+          "std": 82.91010816718348,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 95.54061702806122,
+          "std": 77.83853866177782,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "39ASUFLU665RMH4POV8JPVD1ZRCEXG",
+      "scene_id": 17,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 184.68807796556123,
+          "std": 65.34422835649873,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 156.82916799532313,
+          "std": 70.06175879564898,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 165.42939519557822,
+          "std": 78.04211162466449,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TE3O857396FU56XMC7QYCIO3T8R2C",
+      "scene_id": 8,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 164.3567509034864,
+          "std": 56.57079262319847,
+          "min": 8,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 83.68460352891157,
+          "std": 69.99769712701077,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 42.2709196960034,
+          "std": 69.85004240590214,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IX2EGZR7KHF0145TXDIXT45VNHJR6",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 65.14261134141157,
+          "std": 59.42494294333526,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 81.66003002763605,
+          "std": 64.18259902597191,
+          "min": 0,
+          "max": 249
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 89.09603528911565,
+          "std": 67.4163779606858,
+          "min": 0,
+          "max": 248
+        }
+      ]
+    },
+    {
+      "episode_id": "3LEP4MGT3PYFH8NON45HUG4O7CCDBT",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 72.94741177721089,
+          "std": 63.41509008766457,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 92.38469254889456,
+          "std": 67.02605388383303,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 99.83791719812925,
+          "std": 70.90265088355899,
+          "min": 0,
+          "max": 248
+        }
+      ]
+    },
+    {
+      "episode_id": "3YOH7BII0I524SR4K2I4Z5TL5YVVKH",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 179.9473121279762,
+          "std": 51.65556402176763,
+          "min": 2,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 120.96228608630952,
+          "std": 69.49130454166036,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 69.39183407738095,
+          "std": 76.96708753093479,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3MRNMEIQWE4RUH90EHUB8J0TTDMDL0",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 170.5028698979592,
+          "std": 60.530215697488096,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "378XPAWRULBR69YI946WQ20VQA1AIU",
+      "scene_id": 20,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 135.2291334502551,
+          "std": 98.37376250009616,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 148.21106372236395,
+          "std": 103.63211652349231,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 183.2424997342687,
+          "std": 78.11256325466147,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3GA6AFUKOXMRQTODU7913ILAB4WH33",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 137.8740832270408,
+          "std": 61.69230523472617,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 131.29981133078232,
+          "std": 67.17542811551459,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 83.71587345875851,
+          "std": 57.197412526564406,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3C6FJU71TZRXBIRLJR9QCR6DF1CUYJ",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.90106823979592,
+          "std": 70.4510517330415,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.92332323554422,
+          "std": 64.66422827909257,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.994140625,
+          "std": 62.88530249491457,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3QBD8R3Z2AHM06T4YY9AXWAH1GGO49",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 144.25862298044217,
+          "std": 62.66990997843388,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 138.37090109481292,
+          "std": 67.75928217308153,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 87.0755075467687,
+          "std": 61.399089566098255,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "39OWYR0EPTP8S0UVO2ERQR5A4KTYFV",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 137.85840508078232,
+          "std": 60.18706997436484,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 125.63021497661565,
+          "std": 66.34558416674287,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 79.28667091836735,
+          "std": 56.73999975434436,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "39N5ACM9HNL5ICBHUTIG34QNY9L9PV",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.06642617984694,
+          "std": 69.73790812113864,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.2747262967687,
+          "std": 64.06720744322526,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.03153566113946,
+          "std": 62.63322415113465,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3N2BF7Y2VZSSCFWN0PEGZHUGL7AMHJ",
+      "scene_id": 17,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 117.274307769983,
+          "std": 72.82185061187141,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 74.46946083120748,
+          "std": 77.57059492237295,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 61.85399394132653,
+          "std": 61.97595914420305,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3JC6VJ2SAKHFUL332KN21TWQFAHA58",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.82743409863946,
+          "std": 47.93595793187429,
+          "min": 0,
+          "max": 233
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.45815396471089,
+          "std": 54.73954086152678,
+          "min": 0,
+          "max": 240
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 72.90186543367346,
+          "std": 57.42659527004254,
+          "min": 0,
+          "max": 254
+        }
+      ]
+    },
+    {
+      "episode_id": "3T111IHZ5NOQUPRW7LM58ZQ27AI9R6",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 156.24972098214286,
+          "std": 62.38129506372352,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3LWJHTCVCLKZJY39XSXXD528EZDFQV",
+      "scene_id": 20,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 134.84120562287416,
+          "std": 86.37859269457645,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 115.68114237882654,
+          "std": 90.32984530220091,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 128.3219002444728,
+          "std": 92.40738640357526,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3CFVK00FWUJS98UL4UMX2DQ13586LT",
+      "scene_id": 11,
+      "num_frames": 193,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_dark_sample"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 3.3332071109693877,
+          "std": 21.111009147758917,
+          "min": 0,
+          "max": 227
+        },
+        {
+          "frame": "frame_096.jpg",
+          "mean": 5.43141475340136,
+          "std": 25.7474976088458,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_192.jpg",
+          "mean": 2.371439200680272,
+          "std": 16.043067753042166,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "39KFRKBFIWT2YD7ON5XHDLEO5XWYOQ",
+      "scene_id": 17,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 161.0218431122449,
+          "std": 68.25085803315554,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 156.90593112244898,
+          "std": 69.9941052615819,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 165.4146736819728,
+          "std": 78.0480434777145,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3CP1TO84P2ZQPI8ZP5UNVBDS06J25O",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 138.7651599702381,
+          "std": 63.348868373338206,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 131.43235145620747,
+          "std": 68.98863159555403,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 82.96801259566327,
+          "std": 59.01959864901441,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3LRKMWOKBEFOWWSOWT13KFKN2V52ZQ",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 80.83894026360544,
+          "std": 66.51557758496872,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 88.78143601190476,
+          "std": 66.41739673578081,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.73102678571429,
+          "std": 70.60561606642337,
+          "min": 0,
+          "max": 252
+        }
+      ]
+    },
+    {
+      "episode_id": "3D4CH1LGEJRZ5ZIIRAST9VCVXJQ9GL",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 108.58929235756803,
+          "std": 67.85851432968595,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 109.20077992134354,
+          "std": 59.29602096097649,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 94.33837558460884,
+          "std": 61.51807419269788,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3AAPLD8UCLFWPAM79MFSLVP8GU6THM",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 181.00787893282313,
+          "std": 50.32871766758591,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 135.50430484693877,
+          "std": 65.49951028229786,
+          "min": 1,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 55.10057929421769,
+          "std": 60.975544291822246,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3FE7TXL1LRLFI4RX9XIQTM8JXQ32QB",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 80.52122528698979,
+          "std": 66.55923580078351,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 101.51009114583333,
+          "std": 69.47587537740738,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 114.13569568452381,
+          "std": 73.57850879556584,
+          "min": 0,
+          "max": 249
+        }
+      ]
+    },
+    {
+      "episode_id": "36DSNE9QZEWC3OCP15WE3YZ0SV7JO5",
+      "scene_id": 17,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 184.9341185693027,
+          "std": 65.08734144767936,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 166.53625903486395,
+          "std": 73.26898363726168,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 170.94795652636054,
+          "std": 73.12413013554242,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3AAJC4I4FPQO2SQW3E7VJW644DTZJQ",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.70972842261905,
+          "std": 69.1080691072464,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.39239875637755,
+          "std": 64.05603580205305,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.37832164115646,
+          "std": 62.37008091953466,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IAS3U3I0OESEYP8QFL0YXDKJWQB2G",
+      "scene_id": 20,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 134.3688283907313,
+          "std": 86.51620363734932,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 115.29191246811224,
+          "std": 90.23236792921422,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 128.12775696215985,
+          "std": 92.31497139768632,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3YGXWBAF79FLRHW18T0J2WG0DT2C4O",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 70.28456499787416,
+          "std": 62.22803346806989,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 74.16084050807824,
+          "std": 61.70478076920875,
+          "min": 0,
+          "max": 245
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 83.58173894557824,
+          "std": 65.75533099439697,
+          "min": 0,
+          "max": 243
+        }
+      ]
+    },
+    {
+      "episode_id": "3L6L49WXW9V0SWNMTJDBOQAQLJ1548",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.43777237457483,
+          "std": 70.01235100784184,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.78776041666667,
+          "std": 64.28444522607496,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 91.34315210459184,
+          "std": 62.738256268139835,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "32AT8R96GU70FWFCKLH1U5ICXHLUSB",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 128.12883981717687,
+          "std": 62.94554696278655,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 120.15349303784014,
+          "std": 67.9232491741661,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 72.55024978741497,
+          "std": 55.8211895944495,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "34BBWHLWHJ9ODM1LA92O8RXM9HJWI9",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 46.06817336309524,
+          "std": 52.12079505677218,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 63.704659598214285,
+          "std": 57.61613040880039,
+          "min": 0,
+          "max": 237
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 71.55281409438776,
+          "std": 61.38594629410819,
+          "min": 0,
+          "max": 235
+        }
+      ]
+    },
+    {
+      "episode_id": "3W92K5RLW3FZM961DFEYXGA380Q5VG",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 108.97639641794218,
+          "std": 79.91020039807468,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 113.52160395408163,
+          "std": 80.55958427274119,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 120.19585724914965,
+          "std": 79.17371650059785,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3QAVNHZ3EV2TWA6OU739IISN75VALQ",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 115.95252710459184,
+          "std": 64.92629354897001,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 94.30475393282313,
+          "std": 71.5125595188652,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 49.64526201105442,
+          "std": 70.74491259811175,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3W2LOLRXLKDABLANBIDUY84IABORKI",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 66.72678837159864,
+          "std": 61.279696456283986,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 82.94347895408163,
+          "std": 64.61486940157104,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 89.89453125,
+          "std": 67.29258421056238,
+          "min": 0,
+          "max": 246
+        }
+      ]
+    },
+    {
+      "episode_id": "3EFE17QCRL3VAA9SKMA2BQTMC34HSF",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 76.24081234056122,
+          "std": 73.00308104351816,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.29947916666667,
+          "std": 82.67237187651487,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 99.1147228422619,
+          "std": 79.59630435353965,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "35DR22AR5MIOCJOSZBRN64944493X1",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.9489596619898,
+          "std": 51.11246405816203,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 151.86510815263605,
+          "std": 61.89560046361263,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 140.1342540922619,
+          "std": 75.6430834595957,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "33PPO7FEC4DP4G1UTEXYG381DN1IDT",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 180.32538132440476,
+          "std": 51.58397615960435,
+          "min": 3,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 120.50232514880952,
+          "std": 69.28769025942263,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 68.9366230867347,
+          "std": 76.60611858741623,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3EA3QWIZ4RTWL5XRF4XDL7QNI77ITS",
+      "scene_id": 2,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 168.76694701318027,
+          "std": 69.88617746922986,
+          "min": 0,
+          "max": 239
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 175.35224675807822,
+          "std": 65.95224892174485,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 175.49137701955783,
+          "std": 67.03219903468533,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3HPZF4IVNVR1POALX0OQILK77NJYCY",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 60.624196162840136,
+          "std": 58.829037860875005,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 82.27436755952381,
+          "std": 64.36101093277178,
+          "min": 0,
+          "max": 247
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 92.77612138605443,
+          "std": 69.25357736504313,
+          "min": 0,
+          "max": 246
+        }
+      ]
+    },
+    {
+      "episode_id": "3BDCF01OG6SUSS4RADHPL4AU1BFYLQ",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 119.4191512542517,
+          "std": 63.66884747303101,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 113.04981797406462,
+          "std": 67.90000542689673,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 62.69395727040816,
+          "std": 52.30235457162774,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3DEL4X4ELFJPSMLGOWKDWY5HLO2YXA",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 168.18172034438774,
+          "std": 70.62143314796187,
+          "min": 0,
+          "max": 242
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 173.64564732142858,
+          "std": 68.79420979341909,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 191.4244525935374,
+          "std": 52.94912344049321,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3EKVH9QME72LTVNS4BC6TN1KMHN2DZ",
+      "scene_id": 20,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 72.75217899659864,
+          "std": 71.16363903690397,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 120.92108444940476,
+          "std": 83.19205701959638,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 124.62410980017007,
+          "std": 80.15544732713606,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3HL8HNGX4EZTRZMNGQMBRACJ4049F0",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 76.1989065157313,
+          "std": 73.01394708248604,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.21985278486395,
+          "std": 82.68061593494203,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 99.15633636267007,
+          "std": 79.43867355506845,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "308XBLVESR29II6T5501Z5LSWG1RBR",
+      "scene_id": 17,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 184.73136559311226,
+          "std": 65.34221660597942,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 156.8928305697279,
+          "std": 70.0445337463276,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 165.2983033056973,
+          "std": 78.10278248228401,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3PWWM24LH1W9C0R1N31Q7VNJ3MR28E",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 70.92746200042517,
+          "std": 62.953335959958004,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 87.8901599702381,
+          "std": 66.0223322406278,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 96.54674213435374,
+          "std": 69.10898185702698,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "3LOTDFNYAGX43VZV91W35UKUUAHFWY",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.05177774234694,
+          "std": 69.44788835705643,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.2064665710034,
+          "std": 64.36233519918872,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.55555112670068,
+          "std": 62.69149890222786,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3ZWFC4W1U35ZVZI9A7MXIVCDCUIFRJ",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 165.01766448767006,
+          "std": 68.26341519317172,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 123.5835193452381,
+          "std": 75.58700809953415,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 52.30292038690476,
+          "std": 61.669582393748215,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3KRVW3HTZWJH2OA3BJQF3V1ILVVMSP",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.21955383715986,
+          "std": 69.0001131747316,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.28920200892857,
+          "std": 64.00546008681329,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 88.93354060374149,
+          "std": 62.287977699105205,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TESA3PJ3A8E4TXYRMUTRM2C10CMM8",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.86154735331633,
+          "std": 72.72898764264536,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.12145913052721,
+          "std": 82.93037250263491,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 95.9415590454932,
+          "std": 78.58673868756811,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TDXMTX3CKSQJ7MFJRPKAXY9UJLI66",
+      "scene_id": 22,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.54306175595238,
+          "std": 65.73712971100089,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 68.87240911989795,
+          "std": 65.11618311670351,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 59.2287747130102,
+          "std": 66.6084561323883,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3VA45EW49WL587WLBGQ8ZY3EQTSO1D",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.22047061011905,
+          "std": 70.10035457419733,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.30473400297619,
+          "std": 64.58703833800897,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.48778300382654,
+          "std": 63.16634222473213,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TPZPLC3M9AJ3AM1DKH6CRN1YJ73P8",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 103.72670865221089,
+          "std": 71.1130291914854,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 103.45583545918367,
+          "std": 61.851769027298324,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 88.29136107568027,
+          "std": 61.21849522764353,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3NAPMVF0Z5D5CMMIDY9KTVROXYD72L",
+      "scene_id": 14,
+      "num_frames": 2,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 141.99846540178572,
+          "std": 51.44300306498021,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 139.65233046343536,
+          "std": 53.518827664512806,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "3H7Z272LXG50JECQJQL68DHI3S0LPL",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.24873777636054,
+          "std": 48.193622029772186,
+          "min": 0,
+          "max": 235
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.08318053784014,
+          "std": 54.87799230073413,
+          "min": 0,
+          "max": 248
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 72.05852067389456,
+          "std": 57.21742678458949,
+          "min": 0,
+          "max": 254
+        }
+      ]
+    },
+    {
+      "episode_id": "36PW28KO48UFQ4WWDLG55N23PTPEAZ",
+      "scene_id": 10,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 117.43459688562925,
+          "std": 43.660975394396694,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 119.04065024447279,
+          "std": 49.04607988293998,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 117.31934258078232,
+          "std": 56.57839344313396,
+          "min": 0,
+          "max": 254
+        }
+      ]
+    },
+    {
+      "episode_id": "39RP059MEQRIL2T10X4KD6RIMVQBMB",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.54354007227892,
+          "std": 48.186855253565696,
+          "min": 0,
+          "max": 236
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.40185214710884,
+          "std": 54.854974368612325,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 74.3985902954932,
+          "std": 57.632068017812415,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WJEQKOXAH0G632K1XLQY3J99Z11AM",
+      "scene_id": 17,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 117.91402928358843,
+          "std": 72.51592061686416,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 74.73567044005102,
+          "std": 77.45816095477323,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 62.049731611394556,
+          "std": 61.92689492312326,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3R0T90IZ11A13XPL3U2KBLD335SGCA",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.33508715986395,
+          "std": 68.93143548032064,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.70400855654762,
+          "std": 64.10365025124828,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.5762715242347,
+          "std": 62.50799302240837,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3LWJHTCVCLKZJY39XSXXD529W5IFQW",
+      "scene_id": 4,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 136.50962611607142,
+          "std": 57.792376303862454,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 133.79603130314626,
+          "std": 65.90129743685183,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 56.79829001913265,
+          "std": 76.66239667104955,
+          "min": 0,
+          "max": 252
+        }
+      ]
+    },
+    {
+      "episode_id": "30OG32W0S39MANQLMPLARTM3TDPNEO",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.43108923256804,
+          "std": 51.22145310423019,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 151.06251328656464,
+          "std": 62.34124969145553,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 139.3411192602041,
+          "std": 75.87158964125594,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3DIP6YHAPLQ17G3HGNWR9WW88T68ER",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.72780479379252,
+          "std": 72.54193302383055,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.04964524872449,
+          "std": 82.90529776907375,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 95.68102944302721,
+          "std": 78.14633462722796,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3OVHNO1VEFZBZ6Q4TILKGYBR8J0ZD5",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 115.93853635204081,
+          "std": 64.88558421947933,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 94.32111633715986,
+          "std": 71.48677535604216,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 49.63723692602041,
+          "std": 70.71053611088703,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMAI62TBI",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.04673549107142,
+          "std": 70.83284352083206,
+          "min": 0,
+          "max": 247
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 162.93556016156464,
+          "std": 58.78802124764751,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 146.73186383928572,
+          "std": 80.19273258123461,
+          "min": 0,
+          "max": 242
+        }
+      ]
+    },
+    {
+      "episode_id": "3DY4FPOOAAMORW4ZAMR10HFZQ9WVR9",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 63.45445365646258,
+          "std": 59.55124451832304,
+          "min": 0,
+          "max": 248
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 81.60510336947279,
+          "std": 64.13879205112515,
+          "min": 0,
+          "max": 246
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 90.1077806122449,
+          "std": 68.09702154397836,
+          "min": 0,
+          "max": 247
+        }
+      ]
+    },
+    {
+      "episode_id": "326O153BMRWDOBZ8XV77VOA9KARDE7",
+      "scene_id": 3,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 112.4422300170068,
+          "std": 64.56083848315302,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 103.25081048044218,
+          "std": 70.40373733315725,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 57.282392644557824,
+          "std": 45.8025111885802,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3H7XDTSHKLPAHVVQKL2LNFK6VKCGWJ",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.61430431547619,
+          "std": 70.48190275575058,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.64619871386054,
+          "std": 64.59290230800997,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.92633264243197,
+          "std": 63.09440023428724,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMAJ1BTBI",
+      "scene_id": 22,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 37.5500637755102,
+          "std": 56.16574748431755,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 32.21136931335034,
+          "std": 53.16516700445498,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 29.554355335884352,
+          "std": 53.397361754596105,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "33CUSNVVNWAKYFTQ3KARHM0MYD488Z",
+      "scene_id": 3,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 112.44405691964286,
+          "std": 64.55158670009058,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 103.12109375,
+          "std": 70.38732124029507,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 57.19614955357143,
+          "std": 45.7372001611809,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3483FV8BENHM8M8DUO4SNHRS71F260",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 180.44278140943877,
+          "std": 51.126170840007525,
+          "min": 1,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 162.69352545705783,
+          "std": 58.00430723034687,
+          "min": 12,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 103.35990646258503,
+          "std": 74.8790079416597,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IRIK4HM3JIZ640FRHTYZU0ENS7C62",
+      "scene_id": 5,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 30.643474968112244,
+          "std": 58.882343281391876,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 31.734115911989797,
+          "std": 65.30313203417388,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 42.99107142857143,
+          "std": 74.87456622235312,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3AWETUDC9BQS7H6QLWMV7VR4TIFIZE",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.57711522108843,
+          "std": 48.37474682309417,
+          "min": 0,
+          "max": 235
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.45894451530613,
+          "std": 55.435461247895326,
+          "min": 0,
+          "max": 242
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 72.8958200467687,
+          "std": 58.161435727011686,
+          "min": 0,
+          "max": 252
+        }
+      ]
+    },
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOPTAYSYJ",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 133.53637197066325,
+          "std": 62.41451652271508,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 119.77325813137755,
+          "std": 68.38726626453564,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 71.7320099914966,
+          "std": 56.842447611505406,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "32RIADZIS121YYLX5FQJH1KI8SF4S2",
+      "scene_id": 17,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 117.15464896896259,
+          "std": 72.7284274987788,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 74.6746518920068,
+          "std": 77.6335702126987,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 61.97803730867347,
+          "std": 62.06436043323317,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "36U2A8VAGAXJ8MM9PD5O64XFLOLKYJ",
+      "scene_id": 3,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 91.97883450255102,
+          "std": 70.34093314783081,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.21605947066327,
+          "std": 69.49127744895424,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 84.42483790391157,
+          "std": 65.91302347476166,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3ZPPDN2SL4U1LLMRLF259SRJK3QE9O",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.00053146258503,
+          "std": 69.41758274568564,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.19137303358843,
+          "std": 64.17018886159296,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.0320206207483,
+          "std": 62.672676940804486,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3Z4AIRP3CFBS2GADC7D4IBU72361XG",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.98189705569727,
+          "std": 69.52766637699415,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.90190529336735,
+          "std": 64.3330166338735,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.04950573979592,
+          "std": 62.5978746337527,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "36AHBNMV10ABUGGZXWJ12R2PTU8DY5",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 68.28553491709184,
+          "std": 62.088173721402015,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 78.54309497236395,
+          "std": 63.12861428637504,
+          "min": 0,
+          "max": 246
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 86.793839019983,
+          "std": 67.23887102345441,
+          "min": 0,
+          "max": 246
+        }
+      ]
+    },
+    {
+      "episode_id": "3TDXMTX3CKSQJ7MFJRPKAXY9UP76IS",
+      "scene_id": 20,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 72.79492851828232,
+          "std": 71.27047024054605,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 120.95039461096938,
+          "std": 83.20226371063266,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 124.50936702806122,
+          "std": 79.932065134219,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3ZSANO2JCO5BWEIMPWM285H9OM3FSF",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 60.83539939413265,
+          "std": 58.329779525955566,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 79.88705755739795,
+          "std": 63.808913899195,
+          "min": 0,
+          "max": 245
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 95.19039647108843,
+          "std": 71.02548239078466,
+          "min": 0,
+          "max": 242
+        }
+      ]
+    },
+    {
+      "episode_id": "3Q8GYXHFEY03N001MYJT7OMECXX5C1",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 135.18458359906464,
+          "std": 64.18391132896676,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 128.35912919855443,
+          "std": 69.3638965628549,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 73.72426392431973,
+          "std": 55.13483017496145,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "33F859I56FBWTOSQ90O7L1JM87BBHL",
+      "scene_id": 22,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 72.81628667091837,
+          "std": 65.89415858783387,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 70.29551977040816,
+          "std": 65.1956025988802,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 60.23487324617347,
+          "std": 66.78241329140324,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3UOUJI6MTMC8BD1BEVNOTDZ4EBJXUE",
+      "scene_id": 10,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 14.791048841411564,
+          "std": 24.28132002152538,
+          "min": 0,
+          "max": 222
+        }
+      ]
+    },
+    {
+      "episode_id": "3J88R45B2PWVJ8TFX9OUJ7C59Y2PXW",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.1589737457483,
+          "std": 51.496218979502736,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 150.20870535714286,
+          "std": 63.085923895872675,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 162.00180697278913,
+          "std": 58.530715669589874,
+          "min": 0,
+          "max": 251
+        }
+      ]
+    },
+    {
+      "episode_id": "3V0Z7YWSI7Y7NCNEVWC0Z97RDAE2VK",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 143.2731784119898,
+          "std": 58.18037988553681,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 127.21878985969387,
+          "std": 64.11608978755062,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 110.94341252125851,
+          "std": 65.56529445015208,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3Z7VU45IP7FH7BASDP1PFWAI9GQZ1M",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 73.17985358205782,
+          "std": 64.11879421742177,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 87.31770833333333,
+          "std": 65.83848535456391,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 94.944442230017,
+          "std": 68.55945176760025,
+          "min": 0,
+          "max": 248
+        }
+      ]
+    },
+    {
+      "episode_id": "3ZY8KE4ISS1OFVPZX721VR5VKZ9VQ3",
+      "scene_id": 5,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 30.651586415816325,
+          "std": 58.882479330538224,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 31.737590348639454,
+          "std": 65.29817969995224,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 42.96532206632653,
+          "std": 74.87848055457593,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TE3O857396FU56XMC7QYCIO3XXR29",
+      "scene_id": 8,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.11710113732994,
+          "std": 61.319156348860226,
+          "min": 25,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 79.15170599489795,
+          "std": 69.3295253971655,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 41.45976163903061,
+          "std": 69.50692693868858,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3GD6L00D31VH84B9Y0BV7UE91B4M1T",
+      "scene_id": 4,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 138.69778380102042,
+          "std": 58.128264893302806,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 135.8380434204932,
+          "std": 66.32306082136054,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 57.77226828231292,
+          "std": 77.60257603021832,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IFS6Q0HJRHV65KCQ4SNB2U1BVXISG",
+      "scene_id": 3,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 110.75376674107143,
+          "std": 65.57631496891892,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 135.90015811011904,
+          "std": 87.18778094995623,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 102.27691857993197,
+          "std": 63.17036865044063,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "35K3O9HUAKBAMVD4O12XJODUVXLEFG",
+      "scene_id": 20,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 134.99844547193877,
+          "std": 98.08462374612712,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 148.31192867772108,
+          "std": 103.64599480278545,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 183.56180909863946,
+          "std": 78.04891588234352,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "373ERPL3YX69E40A5RRMZZRE1NUTRB",
+      "scene_id": 22,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 73.38089259141157,
+          "std": 66.3634865071159,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 66.3821415284864,
+          "std": 63.9372088156548,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 58.31529017857143,
+          "std": 65.79861773893883,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3XM0HYN6NTXMD82Y24Y2VIRZF4ZPE7",
+      "scene_id": 4,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 156.2708067602041,
+          "std": 53.1128585586236,
+          "min": 0,
+          "max": 225
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 157.71372103528913,
+          "std": 58.224870562849446,
+          "min": 0,
+          "max": 241
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 110.99263924319727,
+          "std": 86.98781398637848,
+          "min": 0,
+          "max": 242
+        }
+      ]
+    },
+    {
+      "episode_id": "3P1L2B7ADANIYE0P4Q8RJDCSNK1OLS",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 68.56241363732993,
+          "std": 63.34532442189601,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 81.55174452593538,
+          "std": 64.19071192849235,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 89.31919642857143,
+          "std": 67.18572262965093,
+          "min": 0,
+          "max": 247
+        }
+      ]
+    },
+    {
+      "episode_id": "3OVHNO1VEFZBZ6Q4TILKGYBRYWFZD0",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 147.93065077593536,
+          "std": 59.19117495044154,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 130.35918234481292,
+          "std": 67.12951891721224,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 85.0747369260204,
+          "std": 58.74693706789807,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "37QW5D2ZRPK2HZ8ZHIGWYD0NBSL8SG",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 107.99633290816327,
+          "std": 79.60073991698945,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 112.50342129039116,
+          "std": 80.22324683988343,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 119.51748511904762,
+          "std": 78.81747198876138,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3YJ6NA41JKEUOOOQG59TSY4QUEKJPN",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 121.48844068877551,
+          "std": 62.81012354451623,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 119.01275510204081,
+          "std": 55.4182198049589,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 96.42572146045919,
+          "std": 61.6402281055164,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "36DSNE9QZEWC3OCP15WE3YZ0UE2JO4",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 182.94348559736395,
+          "std": 50.18954852023713,
+          "min": 4,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 130.67065927933675,
+          "std": 65.63268297742472,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 69.57639110331633,
+          "std": 76.50818042084354,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "35DR22AR5MIOCJOSZBRN64940NJ3X9",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.77655984268708,
+          "std": 69.39896390508284,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.21748777636054,
+          "std": 63.91524150051915,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 88.2407459077381,
+          "std": 62.53206674238546,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3PW9OPU9PZIR107GOISBSL0BPOC120",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 65.7749787414966,
+          "std": 60.70069372981672,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 83.60494393069727,
+          "std": 64.77826282942667,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 93.25598559736395,
+          "std": 69.07453122200819,
+          "min": 0,
+          "max": 248
+        }
+      ]
+    },
+    {
+      "episode_id": "3GS6S824SZVGRNCC7PFGDZT32HXNW9",
+      "scene_id": 4,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 138.3616868622449,
+          "std": 58.082458414305805,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 135.5056600765306,
+          "std": 66.27141293632292,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 57.61372634991496,
+          "std": 77.44728537597784,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3P529IW9K7JOS1NW5NP1WJ3EWZGFL0",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 106.98737776360544,
+          "std": 73.29539369957301,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 106.42817947491497,
+          "std": 63.073589556061386,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 93.08420360331633,
+          "std": 62.267000837771164,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3KWTYT08791WQ4U7ZBCSA7C1H8BL5C",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 46.04257679634354,
+          "std": 56.64605608932842,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 61.14659066751701,
+          "std": 69.91689280697219,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 64.89950042517007,
+          "std": 71.23221008264505,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IUZPWIU1X5FJHR9ACN0L7CZ4K5KW6",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 72.18308886054422,
+          "std": 48.42486216462596,
+          "min": 0,
+          "max": 232
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.91167756164965,
+          "std": 55.348874955798784,
+          "min": 0,
+          "max": 241
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 73.34848666028911,
+          "std": 58.0412700199769,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "39OWYR0EPTP8S0UVO2ERQR5AD1PYFY",
+      "scene_id": 22,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 75.66774287840136,
+          "std": 65.93140399309775,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 73.050887542517,
+          "std": 65.29439471538758,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 62.55100712159864,
+          "std": 67.1498242316443,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3U088ZLJVTRD6RK56JDI2NXQORE0W3",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.97912680697279,
+          "std": 65.69657855461426,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 91.32730787627551,
+          "std": 66.90648938701325,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 97.87420280612245,
+          "std": 69.164188241152,
+          "min": 0,
+          "max": 251
+        }
+      ]
+    },
+    {
+      "episode_id": "34X6J5FLP2WFO0P5GIOIS3U0YD6JQJ",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 133.9768149447279,
+          "std": 64.8623400778131,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 127.73693930697279,
+          "std": 70.07564411351368,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 70.61992453231292,
+          "std": 58.131943065268544,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "32EYX73OY97OEHFZ5WHW4VDGIXRRUG",
+      "scene_id": 4,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 158.62836814413265,
+          "std": 53.34279370388965,
+          "min": 0,
+          "max": 228
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 159.96482382015307,
+          "std": 58.42777864080322,
+          "min": 0,
+          "max": 243
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 112.69412335246598,
+          "std": 87.62041040551955,
+          "min": 0,
+          "max": 243
+        }
+      ]
+    },
+    {
+      "episode_id": "3NLZY2D53YNLJQD5J30V8I7S2IVLQ3",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 135.84853980654762,
+          "std": 70.64922940227342,
+          "min": 0,
+          "max": 254
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 125.78164195365646,
+          "std": 66.24328336575147,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 112.01045652636054,
+          "std": 66.81372277740063,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3NQL1CS1506XOXGLOHJV8D8WT89VYX",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.12513950892857,
+          "std": 69.78014797385707,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.66674638605443,
+          "std": 64.35451276155457,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.93956606079932,
+          "std": 62.52784271580661,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "38YMOXR4M3X8K26K88TZBO7IRBK6WK",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 115.93176020408163,
+          "std": 64.88585828715055,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 94.38021497661565,
+          "std": 71.49394841782382,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 49.64641794217687,
+          "std": 70.70011802991225,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3C44YUNSIANHL2OY69NIP09DWNPPDA",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 154.70869871386054,
+          "std": 70.83281808144858,
+          "min": 0,
+          "max": 246
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 163.24360916241497,
+          "std": 58.710342268195014,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 146.91355761054422,
+          "std": 80.26743219915508,
+          "min": 0,
+          "max": 239
+        }
+      ]
+    },
+    {
+      "episode_id": "3A0EX8ZRNHMIFJIFJ0SV71EPQF8YB7",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.14042570153062,
+          "std": 68.77903142455979,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 97.59438775510205,
+          "std": 63.12675521964819,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 86.62593005952381,
+          "std": 61.82087444849629,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3DZQRBDBSUDGG22T51L07WSCK4XS3X",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 130.18609162414967,
+          "std": 61.36014740645271,
+          "min": 0,
+          "max": 254
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 123.98128587372449,
+          "std": 66.14203717290724,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 73.7573474702381,
+          "std": 56.46386232523084,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3NC5L260MXKWYMQTIF5TO078VCPOFE",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 141.46950069090136,
+          "std": 51.316974446553914,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 150.89389349489795,
+          "std": 62.61552276753818,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 139.7141794217687,
+          "std": 75.59312576969961,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "3HPZF4IVNVR1POALX0OQILK76ALYC9",
+      "scene_id": 5,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 38.81883104804422,
+          "std": 47.50008953328526,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 42.7981106505102,
+          "std": 60.096921533712255,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 60.73834103954081,
+          "std": 56.533327045630266,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3T3IWE1XGFL923LASC2MU9H9XJ2TQC",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.19713940263605,
+          "std": 69.9274175794274,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 99.4037321960034,
+          "std": 64.68728880018537,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 90.57857674319727,
+          "std": 63.08343175884328,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3L4D84MIL8Q2B7Q2XS1OJP2Z8D7JHV",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 75.63491177721089,
+          "std": 63.88869488494412,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 86.88598134566327,
+          "std": 65.92164519955313,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 99.6121518920068,
+          "std": 71.85869392506648,
+          "min": 0,
+          "max": 246
+        }
+      ]
+    },
+    {
+      "episode_id": "35LDD5557J2JE5XV6AHDC9A8E6JMKT",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 46.000166082057824,
+          "std": 56.63844939205714,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 60.518866921768705,
+          "std": 69.47756437620569,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 64.34379650297619,
+          "std": 70.8348241571293,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "369J354OFM8CNGGKT3PHPLLT6TOG68",
+      "scene_id": 10,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 100.64722842261905,
+          "std": 42.32448134236752,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 104.65387834821429,
+          "std": 47.284566991097456,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 103.96481053358843,
+          "std": 54.582771720627484,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3Z7EFSHGNICCPJKBS42OZ7DYBM0XCI",
+      "scene_id": 14,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 70.48068797831633,
+          "std": 48.24425764978119,
+          "min": 0,
+          "max": 236
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 68.32935400722789,
+          "std": 54.44420361960061,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 73.20166347789116,
+          "std": 57.18297851532571,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3ZSY5X72N69T1CV29A5N5PLRTWWROV",
+      "scene_id": 10,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 112.84649367559524,
+          "std": 46.045177547502966,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 114.1410368835034,
+          "std": 49.67733310253254,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 112.72154682185374,
+          "std": 56.76804857476623,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3E7TUJ2EGLKWTF8RPKRL3A9YX779DH",
+      "scene_id": 5,
+      "num_frames": 7,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 30.663849914965986,
+          "std": 58.919509630056766,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 31.74934231505102,
+          "std": 65.30783513975997,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_006.jpg",
+          "mean": 43.015412414965986,
+          "std": 74.87854590907507,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IFS6Q0HJRHV65KCQ4SNB2U1C2LISJ",
+      "scene_id": 17,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 97.6117931547619,
+          "std": 86.75933680294085,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 83.60251913265306,
+          "std": 91.35509480983718,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 157.54477572278913,
+          "std": 89.83731052091468,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3R2UR8A0IJEDY8HEI9BFU77F3QOXO3",
+      "scene_id": 17,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 156.2376567814626,
+          "std": 62.393447334773455,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "324G5B4FBC6YGCJ4YB56A7Y925Y70I",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 155.1015093537415,
+          "std": 70.83754978214357,
+          "min": 0,
+          "max": 243
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 162.81796742134352,
+          "std": 58.808738814766464,
+          "min": 0,
+          "max": 249
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 146.74905665391157,
+          "std": 80.20403564053395,
+          "min": 0,
+          "max": 240
+        }
+      ]
+    },
+    {
+      "episode_id": "3LEP4MGT3PYFH8NON45HUG4OG3LBDR",
+      "scene_id": 11,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 85.88597470238095,
+          "std": 81.01712296730254,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 70.74931574192176,
+          "std": 71.87606954568398,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 73.5032419217687,
+          "std": 74.91337003715209,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IHR8NYAMGZ4L655DYMPMWF7MC84PV",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 110.83563855229592,
+          "std": 80.24501049290922,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 114.22078948767007,
+          "std": 80.53411543612489,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 120.61932663690476,
+          "std": 79.414543464286,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "32ZKVD547OLHZGLRUFZ5H7ICJDJ3BC",
+      "scene_id": 12,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 59.514429209183675,
+          "std": 41.281124931879695,
+          "min": 0,
+          "max": 214
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 139.3805072810374,
+          "std": 72.23551558049364,
+          "min": 0,
+          "max": 241
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 164.47443664965985,
+          "std": 38.88455845536273,
+          "min": 0,
+          "max": 240
+        }
+      ]
+    },
+    {
+      "episode_id": "3S0TNUHWK2GWFAPHKSL73EENZ5G8DC",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 80.86892139668367,
+          "std": 65.38759621223764,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 83.69664115646259,
+          "std": 64.82022432131124,
+          "min": 0,
+          "max": 254
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 91.66834077380952,
+          "std": 67.73431965895823,
+          "min": 0,
+          "max": 248
+        }
+      ]
+    },
+    {
+      "episode_id": "3T3IWE1XGFL923LASC2MU9H9ZIYTQ8",
+      "scene_id": 11,
+      "num_frames": 222,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_dark_sample"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_003.jpg",
+          "mean": 3.1592195471938775,
+          "std": 10.91989806465743,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_114.jpg",
+          "mean": 3.769610969387755,
+          "std": 16.86923168222208,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_224.jpg",
+          "mean": 1.7861062393707483,
+          "std": 8.052925624855417,
+          "min": 0,
+          "max": 221
+        }
+      ]
+    },
+    {
+      "episode_id": "3UN61F00H5N7T2PK4V9OWJL0LSU5RY",
+      "scene_id": 20,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 134.85631244685374,
+          "std": 86.40871019204292,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 115.48994871386054,
+          "std": 90.33724550916156,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 128.2925037202381,
+          "std": 92.47088028229936,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "31JLPPHS23S1IAA0YK4RNRIBW9F3OT",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 83.29282924107143,
+          "std": 78.86816040240598,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 122.14738786139456,
+          "std": 82.76428395373475,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.1583559204932,
+          "std": 79.4881911386349,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3T3IWE1XGFL923LASC2MU9H9XECQT9",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 88.90092208758503,
+          "std": 68.31162633177408,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.07942044005102,
+          "std": 63.38201111990144,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 87.56031436011905,
+          "std": 62.09717498562894,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3TR2532VIYSMEI6L19AKMYD99706JG",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 46.00428491709184,
+          "std": 56.409422034977304,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 60.85249920280612,
+          "std": 69.67237088487936,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 64.70305856717687,
+          "std": 71.0354092831365,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3GD6L00D31VH84B9Y0BV7UE9ZGOM1L",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 141.52727731717687,
+          "std": 51.95165416242705,
+          "min": 0,
+          "max": 248
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 150.09316539115648,
+          "std": 63.11694869390692,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 161.38340375212584,
+          "std": 59.14385378193517,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "3U088ZLJVTRD6RK56JDI2NXQOVG0WD",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 71.35276493409864,
+          "std": 62.88055754440097,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 88.68154761904762,
+          "std": 66.03673018391308,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.81445976828232,
+          "std": 70.61402341212288,
+          "min": 0,
+          "max": 247
+        }
+      ]
+    },
+    {
+      "episode_id": "31Z0PCVWUTDZWLGVWDTGUI0E0IOT7E",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.82196667729592,
+          "std": 73.10600814323084,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.73739105017007,
+          "std": 82.65170248685563,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.05018999787416,
+          "std": 79.2182003301184,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3D8YOU6S9NIVSYHFD8EYT0MKGJA6U6",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 79.28113042091837,
+          "std": 64.66337578455676,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 90.45633370535714,
+          "std": 66.61832841363675,
+          "min": 0,
+          "max": 252
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 98.30821508290816,
+          "std": 70.14830523139096,
+          "min": 0,
+          "max": 251
+        }
+      ]
+    },
+    {
+      "episode_id": "3A0EX8ZRNHMIFJIFJ0SV71EPYVWYBZ",
+      "scene_id": 11,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 84.14919483418367,
+          "std": 80.57778370208118,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 69.00003321641157,
+          "std": 71.40164806021852,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 71.830078125,
+          "std": 74.47436954151217,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3G5F9DBFOYVB22QWEHF7MDDT5AJVHJ",
+      "scene_id": 12,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 59.51502710459184,
+          "std": 41.29861724830932,
+          "min": 0,
+          "max": 208
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 139.6099928252551,
+          "std": 72.51185517519974,
+          "min": 0,
+          "max": 242
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 164.06577513818027,
+          "std": 38.6355768726019,
+          "min": 0,
+          "max": 240
+        }
+      ]
+    },
+    {
+      "episode_id": "345LHZDED6QWVFUXU6G0MXA0GZI3UV",
+      "scene_id": 8,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 178.72539992559524,
+          "std": 55.77926449225564,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 161.44986979166666,
+          "std": 61.01228925460192,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 105.37306016156462,
+          "std": 74.61533656701926,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3WJEQKOXAH0G632K1XLQY3J90FO1AW",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 121.63012197066327,
+          "std": 66.52510873009388,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 114.3988493835034,
+          "std": 71.27955092488752,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 65.10453204719387,
+          "std": 54.88394456041511,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3PXX5PX6L6WHJ1KC3UEF4FWIUB7ABS",
+      "scene_id": 22,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 29.166759672619047,
+          "std": 50.385739015132486,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 24.943804474914966,
+          "std": 47.97138339525141,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 23.29757918792517,
+          "std": 47.968447618500065,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3CFJTT4SX2O9N70K21UCGBY5R3NI77",
+      "scene_id": 8,
+      "num_frames": 4,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 180.82710857780611,
+          "std": 51.71423224230588,
+          "min": 2,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 135.14797911352042,
+          "std": 67.06176470362624,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 51.59252763605442,
+          "std": 61.684655197460515,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "32M8BPYGA2KSG0BLV4Y6MOBYKWLIGZ",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.5803305697279,
+          "std": 51.33937698249851,
+          "min": 0,
+          "max": 251
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 151.28820551658163,
+          "std": 62.47874095181635,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 140.11000611181973,
+          "std": 75.537447712471,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3YWRV122C1XIWC036NBWDEIBN28U81",
+      "scene_id": 10,
+      "num_frames": 1,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 13.578676392431973,
+          "std": 23.07695416729035,
+          "min": 0,
+          "max": 219
+        }
+      ]
+    },
+    {
+      "episode_id": "37XITHEIS57SSNYZJ5WWAPRA42ARCZ",
+      "scene_id": 5,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 38.2395169005102,
+          "std": 47.459877521348965,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 42.79055723852041,
+          "std": 60.09725146524188,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 60.75630447491496,
+          "std": 56.5231486556748,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "326O153BMRWDOBZ8XV77VOA9NSBDEU",
+      "scene_id": 2,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 170.02228821215985,
+          "std": 69.49543912821747,
+          "min": 0,
+          "max": 240
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 176.83812313988096,
+          "std": 66.51488960235675,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 191.5012887967687,
+          "std": 52.84782496032483,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "320DUZ38GGKOBBVRDMJ6YPQYTP6GJT",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.14200015943878,
+          "std": 70.00546121732977,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.79633025085035,
+          "std": 64.42776705058097,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.57386665603741,
+          "std": 62.70248580745393,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3FUI0JHJP6WCWLHEFMKZZOK0SPA33U",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 120.30492665816327,
+          "std": 67.13756439423547,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 114.80799585459184,
+          "std": 70.43853550484998,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 69.04066353103741,
+          "std": 56.05385824400398,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3AQF3RZ55HG69GKPIJJZ70LHEKJF6O",
+      "scene_id": 14,
+      "num_frames": 2,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.5309444090136,
+          "std": 51.36928716179277,
+          "min": 0,
+          "max": 253
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 141.02659970238096,
+          "std": 53.293110955558596,
+          "min": 0,
+          "max": 252
+        }
+      ]
+    },
+    {
+      "episode_id": "3VW6495TLSYESRBQTS6FFCCR1Q5YYX",
+      "scene_id": 14,
+      "num_frames": 5,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 142.69858099489795,
+          "std": 51.33522176053456,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 150.5764708227041,
+          "std": 62.703704692518016,
+          "min": 0,
+          "max": 250
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 162.54205862032313,
+          "std": 58.207888934200305,
+          "min": 0,
+          "max": 253
+        }
+      ]
+    },
+    {
+      "episode_id": "3WMINLGALK10T6CIHUAAFZ2058CACL",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.94895966198979,
+          "std": 70.49058903795232,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 100.33378507653062,
+          "std": 64.71808608165769,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 91.4605256164966,
+          "std": 63.00730937159225,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "324G5B4FBC6YGCJ4YB56A7Y9UXF70B",
+      "scene_id": 10,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 63.341039540816325,
+          "std": 59.027918172605446,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 68.60082509566327,
+          "std": 59.55269338887883,
+          "min": 0,
+          "max": 240
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 77.8587571747449,
+          "std": 64.82814084710265,
+          "min": 0,
+          "max": 239
+        }
+      ]
+    },
+    {
+      "episode_id": "36TFCYNS4D836RVREWGPAYAF9QNHX4",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 183.4803093112245,
+          "std": 66.88157161612682,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 164.90446960034015,
+          "std": 71.03355039248677,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 165.47314120960885,
+          "std": 70.71083677264413,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3LEP4MGT3PYFH8NON45HUG4OGNJBDT",
+      "scene_id": 20,
+      "num_frames": 9,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 74.87753109056122,
+          "std": 73.14367245199996,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.77986819727892,
+          "std": 82.65790222782948,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_008.jpg",
+          "mean": 97.43562659438776,
+          "std": 79.43289726776976,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "333U7HK6IIDLZRL0BWIYS4N1GVKJDC",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 90.54458306760205,
+          "std": 70.02006262784302,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 98.9129862882653,
+          "std": 64.0652613834926,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 89.75598559736395,
+          "std": 62.93155483820802,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3STRJBFXO5PNR0NFF7IPYN5063KTKI",
+      "scene_id": 20,
+      "num_frames": 8,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 81.60123033588435,
+          "std": 77.69701347223156,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_004.jpg",
+          "mean": 121.2901918579932,
+          "std": 83.28211863623635,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_007.jpg",
+          "mean": 124.32790577168367,
+          "std": 79.74651484124482,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3018Q3ZVORO4Z811ZR054U1M59LRAE",
+      "scene_id": 8,
+      "num_frames": 3,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "very_short_lt5"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 89.12596991921768,
+          "std": 68.87030644471886,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_001.jpg",
+          "mean": 97.95927667942176,
+          "std": 63.218711190664195,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_002.jpg",
+          "mean": 86.37117346938776,
+          "std": 61.81919766686429,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3OE22WJIGRMO2G0ZSHSWZ53BO9PQUC",
+      "scene_id": 17,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 183.55148543792518,
+          "std": 67.1231634592921,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 164.17339631164967,
+          "std": 71.71939322583619,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 165.02561649659864,
+          "std": 71.1767841435885,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3E4GGUZ1THPT71T2WSYTX0WAXWRK24",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 122.94090136054422,
+          "std": 63.24262359698478,
+          "min": 0,
+          "max": 248
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 116.74103156887755,
+          "std": 67.94105864737716,
+          "min": 0,
+          "max": 254
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 63.7014309630102,
+          "std": 52.97848082335227,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    },
+    {
+      "episode_id": "3IUZPWIU1X5FJHR9ACN0L7CZ16DWKV",
+      "scene_id": 10,
+      "num_frames": 6,
+      "folder_exists": true,
+      "done": true,
+      "flags": [
+        "short_lt10"
+      ],
+      "sample_stats": [
+        {
+          "frame": "frame_000.jpg",
+          "mean": 132.20602147108843,
+          "std": 64.02613446760888,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_003.jpg",
+          "mean": 125.26484773596938,
+          "std": 69.27985103421186,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": "frame_005.jpg",
+          "mean": 74.95384911777211,
+          "std": 57.82287002450073,
+          "min": 0,
+          "max": 255
+        }
+      ]
+    }
+  ]
+}

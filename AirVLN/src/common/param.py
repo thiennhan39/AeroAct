@@ -37,6 +37,7 @@ class Param:
         self.parser.add_argument('--batchSize', type=int, default=1)
         self.parser.add_argument("--trainer_gpu_device", type=int, default=0, help='GPU')
 
+        # [MODIFIED] Reverted to original AirVLN RGB defaults.
         self.parser.add_argument('--Image_Height_RGB', type=int, default=224) # RGB image height
         self.parser.add_argument('--Image_Width_RGB', type=int, default=224)
         self.parser.add_argument('--Image_Height_DEPTH', type=int, default=256) # Depth image height
@@ -127,4 +128,3 @@ args.DistributedDataParallel = False
 default_config = CN.clone()
 default_config.make_dir_time = args.make_dir_time
 default_config.freeze()
-

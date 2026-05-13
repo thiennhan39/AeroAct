@@ -1,0 +1,1204 @@
+{
+  "source_annotation": "/workspace/AeroAct_ws/DATA/data/aerialvln-s/train.json",
+  "reason": "Episodes not successfully collected after retry; do not use for raw-image training.",
+  "count": 171,
+  "episodes": [
+    {
+      "episode_id": "3QFUFYSY97DSUTGBZVQKA213H6B4FF",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JAOYWH7VR2FRRWJ21P9MNH3TZV9L8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3570Y55XZYHE60QQZMK98C5M7YZYG0",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DIP6YHAPLQ17G3HGNWR9WW8ZEME8A",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SUWZRL0M7BE32KTN8ZTPI0H4NNE6Y",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K3R2QNK8K1IAHJDBFHADADMGA7U9K",
+      "scene_id": 3,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOP1XNYSW",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37QW5D2ZRPK2HZ8ZHIGWYD0N05X8S7",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3HQUKB7LNOC6K1VC9SY37CMK2KTHHJ",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LEIZ60CDSXZWGDNH2GIU2S17ME9ZT",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NG53N1RL4H547S7P1C238VCN888PT",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LRLIPTPEZ7IC4O697R83IF8HAVKAB",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31UV0MXWNZAU03M1E8FFIRK9Z5SI57",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NPFYT4IZL2P6V0GUQY7PYYDE5XXGK",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KYQYYSHY45Z02CXR9A3004NGE8ODT",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMAMLITBW",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "317HQ483IGQYQSS7I8B1C8KVH7ONIN",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SB4CE2TJ4TOW4ND8Q6XTCNA7G4AX8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OHYZ19UGL312V9L7ZJ1AZWH4RIOA3",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OE22WJIGRMO2G0ZSHSWZ53BNMCUQS",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3E47SOBEYZUFZOVGTI2NWXQJJ52ICX",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33SA9F9TR6SCXHZZEQCXNCZUPWGEWA",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3EA3QWIZ4RTWL5XRF4XDL7QNIZIITN",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RP9OVJUV",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33L7PJKHCPW3WZLE6ILM8IWATHHT82",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Z7VU45IP7FH7BASDP1PFWAIAY91Z8",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3L0KT67Y8NEHW5ZHUMEQXQOP3EVYS4",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "36NEMU28XOBA95RCVO0G0K43388MWX",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OWEPKL08IA118BBZH74LJUM4PG7NC",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MAOD8E57Z8VGNH2HUB2FI7ACMONXU",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I0BTBYZA6JHVWF5LKV6NKI663X0Y0",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MMN5BL1W82DI7POL4PEVNT6SWK3MZ",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NOKK93PRA6IGHD8TQIR16SUJLIEEO",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3B3WTRP3DK09Q5ABSV747RIUNSE92F",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DOCMVPBTWCQ4T3YFOOTHGGCAD9NNF",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33CKWXB73SIKCFPK5ESXN2Q66OH11N",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33M4IA01QPZGVL9UA1SJO2CKDN1RXI",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "336YQZE834CGWMCSZND7AKRQEY4M5L",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X73LLYYQACYUXHNCQTGCWJGO3PNHZ",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3W2LOLRXLKDABLANBIDUY84IKQSRKQ",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3AUQQEL7UER0R2K0G98MGLECR2X0VS",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YWRV122C1XIWC036NBWDEIBWV6U8U",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3CPLWGV3MXX5FRZ4EE5OZFLS5J1N9F",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DQQ64TANPJGU8OPN4S8HOYY30YWPN",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3B3WTRP3DK09Q5ABSV747RIUXG029G",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33FOTY3KEVJ4ZIZILBHH4Y9XBJWC19",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QUO65DNQ3MLH4NJD40SA08BBMKUOF",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K2755HG5115UPZ4S6RDD6V9OZ6FDV",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WAKVUDHU5EEWYVKWIJQZEMGITW7UD",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JAOYWH7VR2FRRWJ21P9MNH3TMJL9I",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "378XPAWRULBR69YI946WQ20VJOJAIX",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YMU66OBIW6SK501PMGLMCAJPYGGHD",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NG53N1RL4H547S7P1C238VCLSJP8N",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F1567XTN53QIOCWU6X539GXDAU9QT",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RPC7HUJX",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QAPZX2QNDBRUBMYSZOBEGH1JDG023",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3CCZ6YKWRGH1P2TYAE925YL7Y7G59Q",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3T111IHZ5NOQUPRW7LM58ZQ26HB9RC",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32SCWG5HIQ2I0T9JWMF4JUZLFX3P6B",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MTMREQS44G974INYLABRT937THWAN",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3MRNMEIQWE4RUH90EHUB8J0TL16DLO",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TE3O857396FU56XMC7QYCIOUA9R22",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31JLPPHS23S1IAA0YK4RNRIBXFRO33",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PJUZCGDJFEKCKC08CG5HIVXJ4789G",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WRFBPLXRJMJ0PAOX54E82I6XMI3NN",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "36U2A8VAGAXJ8MM9PD5O64XFNSSYKE",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34X6J5FLP2WFO0P5GIOIS3U0B62JQE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F0BG9B9MYLVD7FP6JGF2ZSTHMK7Y1",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WOKGM4L7AE51IB3FXM8LTK4UBCO0T",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "3DOCMVPBTWCQ4T3YFOOTHGGCAEWNN4",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K4J6M3CXNRDAISNJG6T5QNF2I5AGV",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31LM9EDVOUQUL3CD0QW1O9ZV1PGJNB",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VFJCI1K48X59ZE4LRSF0GCP2J1RGM",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TPZPLC3M9AJ3AM1DKH6CRN2OZRP32",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3RKNTXVS3VWXY2Z3OF4SW1QCLF44AN",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "333U7HK6IIDLZRL0BWIYS4N1H6NDJW",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KKG4CDWKRWJTJPYW9QS06FSE4N94R",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39JEC75373ZKLUFGSP16BMGDZL4CVU",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32EYX73OY97OEHFZ5WHW4VDH2YNUR3",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I02618YA94324ZKS4D7Z0D1BDQUP4",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OS4RQUCRIDCFS1KEA07IG79UAOBFF",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QEMNNSB26XSFWKYANT1PEISZ5WD7V",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VAR3R6G1YZNJ7G6A1ZNE8QNU94O8F",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JCG6DTRVCOWANTIB88RP46MDS1QQP",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39PAAFCODVY17BHREBWW0WGHLY4TVA",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X1FV8S5J6PX26VLUBXP1D1SYI3VG5",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3M0NZ3JDPAWGVTBBEC31IMNZVFV5ZM",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3XXU1SWE8VTGZEH25EHQKY0ZV2K0AO",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3HFNH7HEMQC5XYZ48C3FVQ2KHZ8QG8",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31UV0MXWNZAU03M1E8FFIRK9R7Q5IO",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3BF51CHDT48V91PGBKRI1KN3JWEH0T",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3SEPORI8WWXD1ZNS98UIQX3LLKQAZ7",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37UEWGM5H2685KO1387CTT8JBHUR1J",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZOTGHDK5R952RVFOZ5SVZQNSOVOSP",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "31QNSG6A50RGY1O7TFIL3M4REXJ78V",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32M8BPYGA2KSG0BLV4Y6MOBYN2UGIL",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3BEFOD78WFRY038SLIUX5SLC6T24M1",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OVHNO1VEFZBZ6Q4TILKGYBR7HTZDT",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3YWRV122C1XIWC036NBWDEIBTFZ8U2",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3W92K5RLW3FZM961DFEYXGA35REV59",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34V1S5K3G1ZX86TCFXJ7X4Z64DP69Z",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3A1COHJ8NSTDRQUJ6O4XUZTLZ2C8H6",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3NVC2EB65ZXDCOE247DPPIGDCTO3Y0",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LBXNTKX00TARLD8GKSXXHCRQ4F9XO",
+      "scene_id": 3,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "339ANSOTRE0XIM74LVJLKG3RUJXIKC",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "37UEWGM5H2685KO1387CTT8J84RR1N",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VE8AYVF8VVTDU3DBYGXREH8OS08FO",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3TXWC2NHN8O2V4R9MAMAY9VYU1TS9K",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39L1G8WVWZPGMI3ZSI6GBV5346P135",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3O6CYIULEMZTMDWL4QR2RULX3B7WUG",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JZQSN0I3Z88699VUWSLJRY6ADJGFK",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LS2AMNW5OOTPBG2WVGN0ZBM8NFOQD",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LQ8PUHQFUQ6GW6WFAGO7ONZ2Y7IHE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GLB5JMZF6TB8PVZ3QXVVRVLOQNGDZ",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VZLGYJEYU8PXCVLKIMWA5EK5HPXZX",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "337RC3OW0E0DOY9M52U5E560TU4VLF",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3A1PQ49WVQFVGQAY73VIFP6DOOI1HE",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZOTGHDK5R952RVFOZ5SVZQNSNBSO7",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33PPO7FEC4DP4G1UTEXYG381CNNIDE",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Y4W8Q93L8IUQMLUSLWHVSYVIDEVDT",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3C5W7UE9COOPY5W25TW223IA90CMX1",
+      "scene_id": 5,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JNQLM5FTDK4R7BKHSAUC09QE3D2LE",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34MAJL3QPDLXEH0IF0PI9TC6HS243T",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "304SM51WAC2LJX66KU06PFQOKLWBSJ",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3IGI0VL64GI8ME3AG3O6W5GH2XMNOO",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PB5A5BD044VRGUPCDU9VZLP2IIG7A",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KGTPGBS66J7AXYEQ62V3N58AQGU2J",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33C7UALJVUW2NF954Z1C2CDECX618O",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3I02618YA94324ZKS4D7Z0D1LB1UPL",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32XVDSJFP8VOXPT5H4B9CDOEX6Y2MO",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39ZSFO5CAHU7GTWMXR8N24RPCEMUJG",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "308XBLVESR29II6T5501Z5LSPLERB7",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F6KKYWMNKZHIHCLQUAQLB4I1KZNDG",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GLB5JMZF6TB8PVZ3QXVVRVL0YBGDF",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JC6VJ2SAKHFUL332KN21TWQKI25A9",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3X87C8JFVF98N38V3CXWK4LN52TSQ5",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33M4IA01QPZGVL9UA1SJO2CK6NKXR0",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3IJXV6UZ16HJ5QKZBFSILSP5Q1PIRK",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3570Y55XZYHE60QQZMK98C5MDGTYG0",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "39GAF6DQW0Y0YR5ICSCMUQXMM3EV19",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32AT8R96GU70FWFCKLH1U5IC7JXUS1",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K3R2QNK8K1IAHJDBFHADADM7XI9UB",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "36NEMU28XOBA95RCVO0G0K43RSUWML",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3DY46V3X3YGIOFRM7OWLTIG4S2H55F",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3V5Q80FXI6PNB3LVBM6UGEF8U1D239",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KAKFY4PG30RMOZX0PRM3UMPLBGI30",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3VNXK88KKLGINW8DG5RF9WF5KROV9S",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "354GIDR5ZK4KY1JKDCKXVSOMUSA00V",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3RXCAC0YI0NZRUZ8MIMF9ZHKOOSG8K",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "373ERPL3YX69E40A5RRMZZRETZ4RTZ",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3QBD8R3Z2AHM06T4YY9AXWAHCK44OW",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3F6HPJW4JMYK21NJL6HWLBQ5X58W21",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JCG6DTRVCOWANTIB88RP46MNQUQQO",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32EYX73OY97OEHFZ5WHW4VDGLFNRUF",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "34S9DKFK7CNKGS7CMQX4YWEKYWMNYY",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3GGAI1SQE4W1V7L7EX0FOQX080ZMCA",
+      "scene_id": 14,
+      "num_frames": 501,
+      "folder_exists": true,
+      "done": false
+    },
+    {
+      "episode_id": "31HQ4X3T318XW6SIB7P03IMTK6CLSO",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3LS2AMNW5OOTPBG2WVGN0ZBM8B4QOG",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3OCHAWUVGXIU8HWZKHJMNQQ6B47XK6",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "32RIADZIS121YYLX5FQJH1KI6W94S2",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3Y9N9SS8L79AEDJB8BQBCX6CSHAD3G",
+      "scene_id": 17,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3WZ36BJEVCEMYXJL9U5WZKMALG4TB7",
+      "scene_id": 8,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3180JW2OTDAQVE67WQ0FUSZ9A4NJ5S",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3KIBXJ1WDES7E8I7JQWQ4DZD6NDKOG",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "33IZTU6J8AZSW097PQSOECHG2H1XSG",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3ZPPDN2SL4U1LLMRLF259SRJUUEE94",
+      "scene_id": 20,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3JC6VJ2SAKHFUL332KN21TWQDHDA5G",
+      "scene_id": 10,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3R6BYFZZPGAJSV4LJ6SP7DY1DPIFXM",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3PMBY0YE2G1MON2DPOWAJ4RG6FA9C6",
+      "scene_id": 2,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "3K772S5NPH9U0R4AJRQXM9P7321HES",
+      "scene_id": 12,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    },
+    {
+      "episode_id": "384PI804X1ZKZA3WME3H5YU5URFS0F",
+      "scene_id": 14,
+      "num_frames": 0,
+      "folder_exists": false,
+      "done": false
+    }
+  ]
+}

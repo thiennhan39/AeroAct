@@ -25,6 +25,8 @@ AIRSIM_SETTINGS_TEMPLATE = {
         "CaptureSettings": [
             {
                 "ImageType": 0,
+                # [MODIFIED] Reverted to the original AirVLN RGB resolution.
+                # The paper/code default is 224x224 for feature-based collection.
                 "Width": 224,
                 "Height": 224,
                 "FOV_Degrees": 90,
@@ -94,6 +96,8 @@ def create_drones(drone_num_per_env=1, show_scene=False, uav_mode=False) -> dict
                     "CaptureSettings": [
                         {
                             "ImageType": 0,
+                            # [MODIFIED] Reverted to the original AirVLN RGB resolution.
+                            # The paper/code default is 224x224 for feature-based collection.
                             "Width": 224,
                             "Height": 224,
                             "FOV_Degrees": 90,
@@ -163,46 +167,96 @@ def pid_exists(pid) -> bool: # is pid exists
 
 
 def FromPortGetPid(port: int): # �ݶ˿ں� port����ѯ�ĸ������ڼ����ö˿ڣ����������� PID�����̺ţ�
-    subprocess_execute = "netstat -nlp | grep {}".format(
-        port,
-    )
+    # [MODIFIED] This server image has no netstat/ss/lsof/fuser. The original
+    # netstat-based lookup silently returned no PID, so KillPorts() left old
+    # Unreal envs alive. Then collect could request scene 11 while still reading
+    # from stale env_12 on the same AirSim ports.
+    #
+    # [ORIGINAL CODE - commented, do not delete]
+    # subprocess_execute = "netstat -nlp | grep {}".format(
+    #     port,
+    # )
+    #
+    # try:
+    #     p = subprocess.Popen(
+    #         subprocess_execute,
+    #         stdin=None, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+    #         shell=True,
+    #     ) # �����ӽ������� shell ����������
+    # except Exception as e:
+    #     print(
+    #         "{}\t{}\t{}".format(
+    #             str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+    #             'FromPortGetPid',
+    #             e,
+    #         )
+    #     )
+    #     return None
+    # except:
+    #     return None
+    #
+    # pid = None
+    # for line in iter(p.stdout.readline, b''):
+    #     line = str(line, encoding="utf-8")
+    #     if 'tcp' in line:
+    #         pid = line.strip().split()[-1].split('/')[0]
+    #         try:
+    #             pid = int(pid)
+    #         except:
+    #             pid = None
+    #         break
+    #
+    # try:
+    #     # os.system(("kill -9 {}".format(p.pid)))
+    #     os.kill(p.pid, signal.SIGKILL)
+    # except:
+    #     pass
+    #
+    # return pid
+    #
+    # [MODIFIED] Replacement: read /proc/net/tcp* and map socket inode -> PID.
+    target_port_hex = format(int(port), "04X")
+    socket_inodes = set()
 
-    try:
-        p = subprocess.Popen(
-            subprocess_execute,
-            stdin=None, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-            shell=True,
-        ) # �����ӽ������� shell ����������
-    except Exception as e:
-        print(
-            "{}\t{}\t{}".format(
-                str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
-                'FromPortGetPid',
-                e,
-            )
-        )
-        return None
-    except:
+    for proc_net_path in ("/proc/net/tcp", "/proc/net/tcp6"):
+        try:
+            with open(proc_net_path, "r", encoding="utf-8") as f:
+                lines = f.readlines()[1:]
+        except Exception:
+            continue
+
+        for line in lines:
+            parts = line.split()
+            if len(parts) < 10 or ":" not in parts[1]:
+                continue
+            local_port_hex = parts[1].rsplit(":", 1)[1].upper()
+            if local_port_hex == target_port_hex:
+                socket_inodes.add(parts[9])
+
+    if not socket_inodes:
         return None
 
-    pid = None
-    for line in iter(p.stdout.readline, b''):
-        line = str(line, encoding="utf-8")
-        if 'tcp' in line:
-            pid = line.strip().split()[-1].split('/')[0]
+    for pid_name in os.listdir("/proc"):
+        if not pid_name.isdigit():
+            continue
+        fd_dir = os.path.join("/proc", pid_name, "fd")
+        try:
+            fd_names = os.listdir(fd_dir)
+        except Exception:
+            continue
+
+        for fd_name in fd_names:
             try:
-                pid = int(pid)
-            except:
-                pid = None
-            break
+                target = os.readlink(os.path.join(fd_dir, fd_name))
+            except Exception:
+                continue
+            if target.startswith("socket:[") and target[8:-1] in socket_inodes:
+                try:
+                    return int(pid_name)
+                except Exception:
+                    return None
 
-    try:
-        # os.system(("kill -9 {}".format(p.pid)))
-        os.kill(p.pid, signal.SIGKILL)
-    except:
-        pass
-
-    return pid
+    return None
 
 
 def KillPid(pid) -> None: 
@@ -221,10 +275,58 @@ def KillPid(pid) -> None:
     return
 
 
+# [MODIFIED] Map a simulator API port back to its generated settings file.
+# The OS on this server denies reading socket fd links for user `airvln`, so
+# port->PID lookup can fail even when Unreal is alive. The command line remains
+# readable, and every Unreal instance includes its unique settings/N/settings.json.
+def SettingsPathForPort(port):
+    try:
+        settings_index = int(port) - 30000
+        return str(CWD_DIR / 'airsim_plugin/settings' / str(settings_index) / 'settings.json')
+    except Exception:
+        return ''
+
+
+# [MODIFIED] Find all Unreal processes launched for a specific AirSim settings slot.
+def FindSceneProcessesBySettings(port):
+    expected_settings = SettingsPathForPort(port)
+    matches = []
+    if not expected_settings:
+        return matches
+
+    for pid_name in os.listdir('/proc'):
+        if not pid_name.isdigit():
+            continue
+        cmdline = GetPidCmdline(int(pid_name))
+        if 'AirVLN-Linux-Shipping' not in cmdline:
+            continue
+        if expected_settings not in cmdline:
+            continue
+        matches.append((int(pid_name), cmdline))
+    return matches
+
+
+# [MODIFIED] Kill stale Unreal envs by settings file when socket fd lookup fails.
+def KillPortProcessesBySettings(port):
+    for pid, cmdline in FindSceneProcessesBySettings(port):
+        print(
+            "{}\t[MODIFIED] Killing process by settings: port={} pid={} cmdline={}".format(
+                str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+                port,
+                pid,
+                cmdline,
+            )
+        )
+        KillPid(pid)
+
+
 def KillPorts(ports) -> None: # ����ɱ��ռ����ָ���˿ڵĽ���
     threads = []
 
     def _kill_port(index, port):
+        # [MODIFIED] First kill any Unreal process using this slot's settings
+        # file. This fixes stale envs when /proc fd socket lookup is denied.
+        KillPortProcessesBySettings(port)
         pid = FromPortGetPid(port)
         KillPid(pid)
 
@@ -239,6 +341,108 @@ def KillPorts(ports) -> None: # ����ɱ��ռ����ָ���˿�
     threads = []
 
     return
+
+
+# [MODIFIED] Verify that an AirSim port is owned by the expected Unreal env.
+# This catches stale-env bugs before data collection writes frames with the
+# annotation pose from one scene but pixels from another scene.
+def GetPidCmdline(pid):
+    if pid is None or not isinstance(pid, int):
+        return ''
+    try:
+        with open(os.path.join('/proc', str(pid), 'cmdline'), 'rb') as f:
+            return f.read().replace(b'\x00', b' ').decode('utf-8', errors='ignore')
+    except Exception:
+        return ''
+
+
+# [MODIFIED] When Unreal has started but the AirSim API port has not bound yet,
+# verify the expected env by matching the Unreal process command line.
+def FindExpectedSceneProcess(port, scen_id):
+    expected_env = '/env_{}/'.format(scen_id)
+    for pid, cmdline in FindSceneProcessesBySettings(port):
+        if expected_env not in cmdline:
+            continue
+        return pid, cmdline
+    return None, ''
+
+
+# [MODIFIED] Return True only when the listener on `port` is the requested env_N.
+def VerifyPortScene(port, scen_id):
+    if str(scen_id).lower() == 'none':
+        return True
+    # [ORIGINAL CODE - commented, do not delete]
+    # pid=None → port chưa bind hoặc không tìm được process → bỏ qua, không coi là lỗi.
+    # Chỉ fail khi tìm được PID nhưng cmdline thuộc scene khác (wrong-env thật sự).
+    # if pid is None:
+    #     return True
+    expected = '/env_{}/'.format(scen_id)
+    # [MODIFIED] Unreal can print the "Drone_" ready line before the AirSim API
+    # port appears in /proc/net/tcp*. Do a short retry; if no port PID exists
+    # yet, accept only when the expected env process exists with this port's
+    # settings file. This avoids the slow fail loop while still blocking stale
+    # wrong-env ports.
+    verify_start = time.time()
+    pid = None
+    cmdline = ''
+    while time.time() - verify_start < 8:
+        pid = FromPortGetPid(port)
+        if pid is None:
+            # [MODIFIED] If another env is still using the same settings slot,
+            # do not allow a newly spawned expected env to mask that stale port.
+            same_slot_processes = FindSceneProcessesBySettings(port)
+            wrong_slot_processes = [
+                (slot_pid, slot_cmdline)
+                for slot_pid, slot_cmdline in same_slot_processes
+                if expected not in slot_cmdline
+            ]
+            if len(wrong_slot_processes) > 0:
+                print(
+                    "{}\t[MODIFIED] Scene/settings mismatch: port={} expected={} processes={}".format(
+                        str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+                        port,
+                        expected,
+                        wrong_slot_processes,
+                    )
+                )
+                return False
+            env_pid, env_cmdline = FindExpectedSceneProcess(port, scen_id)
+            if env_pid is not None:
+                print(
+                    "{}\t[MODIFIED] Scene/port pending bind but expected env process exists: port={} expected={} pid={}".format(
+                        str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+                        port,
+                        expected,
+                        env_pid,
+                    )
+                )
+                return True
+            time.sleep(1)
+            continue
+        cmdline = GetPidCmdline(pid)
+        ok = expected in cmdline
+        if not ok:
+            print(
+                "{}\t[MODIFIED] Scene/port mismatch: port={} expected={} pid={} cmdline={}".format(
+                    str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+                    port,
+                    expected,
+                    pid,
+                    cmdline,
+                )
+            )
+        return ok
+
+    print(
+        "{}\t[MODIFIED] Scene/port verification failed after retry: port={} expected={} pid={} cmdline={}".format(
+            str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+            port,
+            expected,
+            pid,
+            cmdline,
+        )
+    )
+    return False
 
 
 def KillAirVLN() -> None:
@@ -415,6 +619,7 @@ class EventHandler(object):
 
         # check
         threads = []
+        scene_check_errors = []  # [MODIFIED] Fail reopen_scenes if any port maps to the wrong env.
 
         def _check_scene(index, p): # Opening 0-th scene (scene 01)	gpu:0
             if p is None:
@@ -432,6 +637,11 @@ class EventHandler(object):
                 if 'Drone_' in str(line):
                     break
 
+            # [MODIFIED] Verify before terminating the launcher wrapper.
+            # Killing the `su`/shell wrapper first can make the Unreal child
+            # disappear from /proc before VerifyPortScene() can match env/settings.
+            _scene_verified = VerifyPortScene(ports[index], scen_ids[index])
+
             try:
                 p.terminate()
                 # os.system(("kill -9 {}".format(p.pid)))
@@ -447,6 +657,12 @@ class EventHandler(object):
                     gpus[index],
                 )
             )
+            # [MODIFIED] Original code only waited for a "Drone_" log line.
+            # Also verify the AirSim API port is really owned by env_<scene>.
+            # [ORIGINAL CODE - commented, do not delete]
+            # if not VerifyPortScene(ports[index], scen_ids[index]):
+            if not _scene_verified:
+                scene_check_errors.append((index, scen_ids[index], ports[index]))
             return
 
         for index, p in enumerate(p_s):
@@ -458,6 +674,16 @@ class EventHandler(object):
         for thread in threads:
             thread.join()
         threads = []
+
+        if len(scene_check_errors) > 0:
+            print(
+                "{}\t[MODIFIED] Failed scene verification: {}".format(
+                    str(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())),
+                    scene_check_errors,
+                )
+            )
+            KillPorts(ports)
+            return False, None
 
         # ChangeNice(ports)
 
