@@ -182,6 +182,13 @@ conda activate aeroact
 python scripts/audit_raw_data_quality.py
 ```
 
+Create prompt/contact-sheet samples for manual raw-image review:
+
+```bash
+conda activate aeroact
+python scripts/make_raw_prompt_samples.py
+```
+
 ## 10. Common Notes
 
 - `Failed to open scenes` appears in the client log even when opening succeeds;
